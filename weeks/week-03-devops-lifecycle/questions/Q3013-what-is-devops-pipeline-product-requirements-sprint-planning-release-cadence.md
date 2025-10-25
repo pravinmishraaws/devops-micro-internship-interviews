@@ -11,7 +11,7 @@ reviewed: false
 ---
 
 ## Question
- What is a DevOps pipeline? Explain how you would align product requirements, sprint planning, and release cadence in a DevOps pipeline
+ What is a DevOps pipeline? Explain how you would align product requirements, sprint planning, and release cadence in a DevOps pipeline.
 
 
 ## Short Answer

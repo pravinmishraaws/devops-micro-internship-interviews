@@ -10,6 +10,7 @@ reviewed: false
 ---
 
 ## Question
+What is the difference between git pull and git fetch?
 
 
 ## Short Answer

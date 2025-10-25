@@ -15,6 +15,7 @@ What’s the difference between Amazon RDS and Amazon DynamoDB, and when would y
 ## Short Answer
 
 
+
 ## References
 - AWS database docs.
 

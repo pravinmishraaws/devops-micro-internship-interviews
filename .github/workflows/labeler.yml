@@ -1,7 +1,6 @@
 name: PR Labeler
 on:
-  # Works for PRs from forks and has write perms on the base repo
-  pull_request_target:
+  pull_request:
     types: [opened, synchronize, reopened]
 
 permissions:

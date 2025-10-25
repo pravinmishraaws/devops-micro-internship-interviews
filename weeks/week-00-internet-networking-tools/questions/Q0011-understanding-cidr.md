@@ -5,7 +5,7 @@ difficulty: entry
 week: 00
 topics: [networking, ip-addressing]
 tags: [cidr, ip, networking, subnetting]
-author: Hajixhayjhay
+author: "[Hajixhayjhay](https://github.com/Hajixhayjhay)"
 reviewed: false
 ---
 

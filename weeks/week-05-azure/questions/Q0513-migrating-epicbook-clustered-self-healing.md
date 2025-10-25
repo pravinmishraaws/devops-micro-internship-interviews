@@ -5,7 +5,7 @@ difficulty: entry
 week: 5
 topics: [azure, architecture, management]
 tags: [azure, cluster, self-healing]
-author: pravinmishraaws
+author: WhitneyKataka
 reviewed: false
 ---
 

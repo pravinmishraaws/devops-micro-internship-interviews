@@ -89,10 +89,11 @@ Create a new branch:
 git checkout -b Q####-kebab-title
 ```
 
-**Copy and Past existing file** OR **Add/Edit/RNAME** `Q####-kebab-title.md` → add this new section:
+**Go to the question respective folder weeks/<week>/questions/**
+**Copy and Past existing file** OR **Add/Edit/REMANE** `Q####-kebab-title.md` → edit the content:
 
 ```markdown
-Addit the file and add your qustion/anwer
+Edit the file and add your qustion/anwer
 ```
 
 Stage & commit:

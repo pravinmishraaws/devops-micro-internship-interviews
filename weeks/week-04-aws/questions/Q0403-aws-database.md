@@ -1,6 +1,6 @@
 ---
 id: Q0403
-title: AWS networking
+title: AWS database
 difficulty: easy
 week: 04
 topics: [aws, database]

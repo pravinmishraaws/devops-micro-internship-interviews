@@ -1,6 +1,6 @@
 ---
 id: Q0404
-title: AWS networking
+title: AWS EC2
 difficulty: easy
 week: 04
 topics: [aws, ec2]

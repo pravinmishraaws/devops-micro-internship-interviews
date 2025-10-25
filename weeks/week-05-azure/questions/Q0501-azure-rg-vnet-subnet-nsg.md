@@ -1,16 +1,16 @@
 ---
-id: Q0501
-title: Resource Groups, VNets, Subnets, NSGs — how they fit
+id: Q0001
+title: Resource Groups, Availability Zones, Resource Groups
 difficulty: entry
 week: 05
 topics: [azure, networking]
-tags: [azure, resource-groups, vnet, subnet, nsg]
-author: pravinmishraaws
+tags: [azure, resource-groups, Azure Regions and AZ]
+author: Sonam Tamang 
 reviewed: false
 ---
 
 ## Question
-Explain the relationship between RG, VNet, Subnet, and NSG and common patterns.
+What are Azure Regions, Availability Zones, and Resource Groups ? Explain with Examples
 
 ## References
-- Microsoft Learn — Virtual Networks
+- 

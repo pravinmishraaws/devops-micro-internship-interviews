@@ -235,29 +235,80 @@ git commit -m "question(Q####): add IAM role vs user with pitfalls and refs"
 
 ## Step 4 — Sync With Upstream & Push to Your Fork
 
-Keep `main` up to date:
+
+
+
+Great follow-up. Here’s how I’d **update Step 4** so it’s crystal-clear what changes if you want a **clean history** vs. a **single-commit PR**.
+
+---
+
+# Step 4 — Sync With Upstream & Push to Your Fork
+
+### 4.1 Keep `main` up to date (fast-forward only)
 
 ```bash
 git fetch upstream
 git checkout main
-git merge upstream/main
+git pull --ff-only upstream main   # or: git merge --ff-only upstream/main
 ```
 
-Rebase your branch (recommended for a clean history):
+*Why:* Brings your `main` to the latest without creating a merge commit.
+
+### 4.2 Rebase your feature branch (linear history)
 
 ```bash
 git checkout Q####-kebab-title
 git rebase main
+# If conflicts: fix files -> git add <files> -> git rebase --continue
+# To abort: git rebase --abort
 ```
 
-Push:
+*Why:* Replays your commits on top of the latest `main`, removing noisy merge commits and making the PR diff smaller.
 
-```bash
-git push -u origin Q####-kebab-title
-```
+### 4.3 (Optional) Squash to one commit **if you want a single-commit PR**
 
-✅ **Expected:** Your feature branch appears on your fork.
-*Why:* Rebasing reduces merge commits and review noise.
+* Interactive rebase:
+
+  ```bash
+  git rebase -i main
+  # change all but the first commit from "pick" to "s" (squash), then save
+  ```
+
+  **or**
+* Soft reset + single commit:
+
+  ```bash
+  git reset --soft main
+  git commit -m "question(Q0405): add aws-security with references"
+  ```
+
+*Why:* Squashing turns your branch history into one logical commit. If you skip this, you’ll keep multiple commits (still linear).
+
+### 4.4 Push
+
+* **First push** (branch hasn’t been pushed before):
+
+  ```bash
+  git push -u origin Q####-kebab-title
+  ```
+* **After a rebase/squash** (history rewritten):
+
+  ```bash
+  git push --force-with-lease origin Q####-kebab-title
+  ```
+
+*Why:* `--force-with-lease` safely updates the remote without clobbering others’ work.
+
+---
+
+## Expected outcomes
+
+* **After 4.2 (rebase only):**
+  Your PR will be **linear** and easy to review, but it may still show **multiple commits**.
+
+* **After 4.3 (squash + rebase):**
+  Your PR will show **one commit** (plus any review fixups you add later).
+  Alternatively, maintainers can click **“Squash and merge”** on GitHub to land it as a single commit even if your PR has several.
 
 ---
 

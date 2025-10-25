@@ -122,11 +122,11 @@ python scripts\build_index.py
 
 ## Governance & Reviews
 
-* **CODEOWNERS** approval is required for the **week(s)** your change touches.
+* **CODEOWNERS** approval is required for the **week(s)** your change touches.  
   *Why:* Ensures subject-matter review.
-* **CI** enforces formatting and metadata.
+* **CI** enforces formatting and metadata.  
   *Why:* Keeps the repo tidy and searchable.
-* Use **Discussions** for clarifications. The best responses graduate to `reviewed: true`.
+* Use **Discussions** for clarifications. The best responses graduate to `reviewed: true`.  
   *Why:* Promotes consensus before code.
 
 ---

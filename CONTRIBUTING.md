@@ -1,7 +1,15 @@
 # Contributing
 
-Thanks for helping build this community resource! Every improvement helps future learners.
-
+Thanks for helping build this community resource!
+ HEAD
+## Quick Checklist
+- [ ] **One question per file** in `weeks/<week>/questions/`.
+- [ ] File name: `Q####-kebab-title.md` (e.g., `Q0401-iam-role-vs-user.md`).
+- [ ] Frontmatter includes: `id, title, difficulty, week, topics, tags, author, reviewed`.
+- [ ] Run: `python scripts/validate_frontmatter.py && python scripts/build_index.py`.
+- [ ] Update or add references; avoid plagiarism.
+- [ ] Keep answers concise first (Short Answer), then **Deep Dive**, **Pitfalls**, **References**.
+=======
 > **Goal:** create high-quality, searchable, and reviewable interview Q&A—organized by week—so students can practice effectively and reviewers can maintain consistency at scale.
 
 ---
@@ -27,78 +35,12 @@ Thanks for helping build this community resource! Every improvement helps future
   *Why:* Mimics interview flow: quick reply, then depth and nuance.
 
 ---
+>>>>>>> upstream/main
 
 ## Difficulty Levels
+`entry | easy | medium | hard | expert`
 
-Use one of: `entry | easy | medium | hard | expert`
-*Why:* Helps learners choose the right challenge level.
-
----
-
-## Frontmatter Template (Copy This)
-
-```yaml
----
-id: Q0001
-title: OSI vs TCP/IP — what’s the practical difference?
-difficulty: entry
-week: 00
-topics: [networking, models]
-tags: [networking, osi, tcpip]
-author: pravinmishraaws
-reviewed: false
----
-
-## Question
-Compare OSI and TCP/IP models and explain how they map to real-world troubleshooting.
-
-## Short Answer
-- OSI is a teaching model (7 layers); TCP/IP is pragmatic (4–5 layers) used on the Internet.
-- Map examples: DNS (app), TCP/UDP (transport), IP (network), Ethernet/Wi‑Fi (link).
-- Troubleshoot top→down or bottom→up; verify each layer (DNS, TCP handshake, routing, link).
-
-## Deep Dive
-- Mapping table, typical tools: `ping`, `traceroute`, `dig`, `curl`, `tcpdump`.
-
-## Pitfalls
-- Confusing DNS failures (app) with network reachability (IP/route).
-
-## References
-- https://datatracker.ietf.org/doc/html/rfc1122
-
----
-```
-
-> **Tip:** `id` must match the file name’s number (e.g., `Q0401` ↔ `Q0401-...md`).
-
----
-
-## Recommended Answer Structure
-
-```markdown
-## Short Answer
-Concise, interviewer-ready definition in 2–4 sentences.
-
-## Deep Dive
-- Explain the concept with context and trade-offs.
-- Add examples, diagrams (if useful), and edge cases.
-
-## Pitfalls / Gotchas
-- Common mistakes and how to avoid them.
-
-## References
-- Official docs
-- High-quality blogs or whitepapers
-```
-
-*Why:* Consistent structure makes contributions skimmable and reviewable.
-
----
-
-## Local Development
-
-### macOS / Linux
-
+## Local Dev
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r scripts/requirements.txt
@@ -106,6 +48,12 @@ python scripts/validate_frontmatter.py
 python scripts/build_index.py
 ```
 
+<<<<<<< HEAD
+## Governance
+- PR requires approval by CODEOWNERS for the touched week(s).
+- CI enforces formatting and metadata.
+- Discussions welcome for clarifications; best responses graduate to “reviewed: true”.
+=======
 ### Windows (PowerShell)
 
 ```powershell
@@ -400,3 +348,4 @@ Your contributions help hundreds of learners prepare with confidence. 🙌
 
 
 If you want, I can also create a **PR template** (`.github/pull_request_template.md`) and a **contribution issue template** to guide first-timers.
+upstream/main

@@ -11,19 +11,17 @@ reviewed: false
 ---
 
 ## Question
-- Client proves identity using private key; server verifies using public key.
+- Explain how public-key authentication works in SSH
 
 ## Short Answer
+- Client proves identity using private key; server verifies using public key.
+
+## Deep Dive
 - Keys stored in ~/.ssh/id_rsa and ~/.ssh/authorized_keys.
 - Uses asymmetric encryption (RSA/ECDSA/ED25519).
 - Secure, passwordless automation (used in Ansible/Terraform).
-
-## Deep Dive
-- Wrong file permissions on ~/.ssh cause “Permission denied”.
-
 ## Pitfalls
-- man ssh-keygen, man sshd_config
-
+- Wrong file permissions on ~/.ssh cause “Permission denied”.
 
 ## References
 - systemctl, journalctl

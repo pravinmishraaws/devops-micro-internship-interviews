@@ -14,6 +14,5 @@ What is a security group in EC2, and how does it differ from a network ACL?
 
 ## Short Answer
 
-
 ## References
 - AWS security groups docs

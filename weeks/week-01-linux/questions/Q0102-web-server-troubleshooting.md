@@ -14,72 +14,40 @@ Your web server suddenly goes down, but you can still SSH into the machine.
 What steps would you take to identify and fix the issue?
 
 ## Short Answer
-Check if the web service is running, inspect logs for errors, verify ports and firewall rules, then restart or reconfigure the service as needed.
+Check if the service is running, view logs, verify ports/firewall, and restart or fix configuration issues.
 
 ## Deep Dive
 1. **Check service status**
    ```bash
-   sudo systemctl status nginx
-   # or
-   sudo systemctl status apache2
+   sudo systemctl status nginx || sudo systemctl status apache2
+   sudo systemctl restart nginx
+Verify port and firewall
 
-Look for “active (running)” or failure messages.
-
-Restart the service
-
-sudo systemctl restart nginx
-
-
-Verify port usage
-
+bash
+Copy code
 sudo ss -tulnp | grep 80
-
-
-Ensures the web server is actually listening on port 80 or 443.
-
+sudo ufw status
 Check logs
 
-/var/log/nginx/error.log
-
-/var/log/apache2/error.log
-
+bash
+Copy code
+sudo tail -n 20 /var/log/nginx/error.log
 journalctl -u nginx
-
-Check firewall and security rules
-
-sudo ufw status
-
-
-Confirm that inbound traffic on ports 80/443 is allowed.
-
-Check resource usage
-
-df -h   # Disk usage
-free -h # Memory usage
-top     # CPU usage
-
-
 Validate configuration
 
-sudo nginx -t
+bash
+Copy code
+sudo nginx -t || apachectl configtest
+Check system health
 
-
-or
-
-apachectl configtest
-
-
-Fix syntax errors before restarting.
-
-Recent changes
-Review recent deployments, config edits, or package updates that could have broken the service.
-
+bash
+Copy code
+df -h; free -h; top
 Pitfalls
+Restarting without checking logs
 
-Restarting services blindly without checking logs.
+Ignoring port/firewall issues
 
-Ignoring port/firewall settings.
+Not validating configs or system resources
 
-Not validating configuration before restarting.
 
-Overlooking full disk or low memory.

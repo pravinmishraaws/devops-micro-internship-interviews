@@ -1,6 +1,6 @@
 ---
 id: Q0403
-title: AWS networking
+title: AWS database
 difficulty: easy
 week: 04
 topics: [aws, database]
@@ -14,6 +14,5 @@ What’s the difference between Amazon RDS and Amazon DynamoDB, and when would y
 
 ## Short Answer
 
-
 ## References
-- AWS database docs
+- AWS database docs.

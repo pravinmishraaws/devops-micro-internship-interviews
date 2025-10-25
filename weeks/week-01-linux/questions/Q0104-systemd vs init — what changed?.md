@@ -1,3 +1,4 @@
+---
 id: Q0104
 title: systemd vs init — what changed?
 difficulty: medium
@@ -6,27 +7,22 @@ topics: [linux, boot, services]
 tags: [systemd, init, services]
 author: supuni
 reviewed: false
+---
 
-Question
-
+## Question
 Compare init and systemd. How does systemd improve service management?
 
-Short Answer
+## Short Answer
+- systemd is parallel, event-driven, dependency-aware.
+- Replaces SysV init’s linear startup scripts.
 
-systemd is parallel, event-driven, dependency-aware.
+## Deep Dive
+- Uses unit files (.service, .target) instead of rc scripts.
+- Faster boot; unified logging via journald.
 
-Replaces SysV init’s linear startup scripts.
+## Pitfalls
+- Misconfigured dependencies (After, Requires) cause boot issues.
 
-Deep Dive
 
-Uses unit files (.service, .target) instead of rc scripts.
-
-Faster boot; unified logging via journald.
-
-Pitfalls
-
-Misconfigured dependencies (After, Requires) cause boot issues.
-
-References
-
-systemctl, journalctl
+## References
+- systemctl, journalctl

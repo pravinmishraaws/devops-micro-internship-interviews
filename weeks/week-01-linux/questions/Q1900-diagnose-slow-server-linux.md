@@ -1,10 +1,10 @@
 ---
-id: Q0101
-title: How do you diagnose a slow server using Linux commands?
+id: Q1900
+title: "How do you diagnose a slow server using Linux commands?"
 difficulty: medium
 week: 01
-topics: [Linux, System Administration, Performance]
-tags: [troubleshooting, diadnosics, performance-monitoring]
+topics: [linux, system-administration, performance]
+tags: [troubleshooting, diagnostics, performance-monitoring, linux]
 author: nkydigitech
 reviewed: false
 ---
@@ -50,25 +50,14 @@ Review system logs for hardware errors, kernel issues, or service failures:
 - `df -h`: Disk space usage (full disks cause major performance issues)
 - `uptime`: Shows load average and how long the system has been running
 
-## Pitfalls
+## Pitfalls / Gotchas
 
 - **Snapshot vs. Trend**: Running commands once gives you a snapshot; for intermittent issues, use monitoring tools or run commands in a loop to catch patterns over time.
 - **Ignoring Load Average Context**: A load of 5.0 means different things on a 2-core vs. 16-core system—always compare load to available CPU cores.
 - **Overlooking Swap Thrashing**: If swap usage is high and constantly changing, the system is thrashing (swapping pages in/out rapidly), which severely degrades performance—add more RAM or reduce memory usage.
 - **Missing the Obvious**: Always check `df -h` first—a full disk (especially root partition) causes cascading failures and slow performance across the entire system.
-- **Not Checking Historical Data**: If available, review historical metrics (sar, monitoring tools) to see if this is a new issue or recurring pattern.
 
 ## References
-
-- [Linux Performance Analysis in 60 Seconds](https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55)
-- [htop Documentation](https://htop.dev/)
-- [iostat Man Page](https://man7.org/linux/man-pages/man1/iostat.1.html)
-- [Brendan Gregg's Linux Performance Tools](https://www.brendangregg.com/linuxperf.html)
-
-File name: Q0801-diagnose-slow-server-linux.md
-
-Save location: weeks/8/questions/Q0801-diagnose-slow-server-linux.md
-
-Ready for Question 2?
-
-
+- https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55
+- https://man7.org/linux/man-pages/man1/iostat.1.html
+- https://www.brendangregg.com/linuxperf.html

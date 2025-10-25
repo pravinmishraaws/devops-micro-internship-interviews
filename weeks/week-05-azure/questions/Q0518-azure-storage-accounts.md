@@ -1,6 +1,6 @@
 ---
 id: Q0518
-title: Azure Storage Accounts — choosing the right service for unstructured data
+title: Azure Storage Accounts - choosing the right service for unstructured data
 difficulty: easy
 week: 05
 topics: [azure, storage, blob]

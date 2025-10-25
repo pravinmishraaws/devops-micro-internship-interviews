@@ -1,30 +1,23 @@
 ---
-id: Q0302
-title: List and explain the key phases of the DevOps life cycle. Provide one example tool used in each phase.
+id: Q0301
+title: What is DevOps? Explain DORA metrics.
 difficulty: entry
 week: 03
-topics: [devops, lifecycle, tools]
-tags: [phases, automation, integration]
-author: nimesha
+topics: [devops, dora]
+tags: [devops, dora, metrics]
+author: pravinmishraaws
 reviewed: false
 ---
 
 ## Question
-List and explain the key phases of the DevOps life cycle. Provide one example tool used in each phase.
+Define DevOps and the four DORA metrics. How do they guide improvement?
 
 ## Short Answer
-The DevOps life cycle includes planning, coding, building, testing, releasing, deploying, operating, and monitoring.  
-Each phase uses tools such as Jira (plan), Git (code), Jenkins (build), Selenium (test), Docker (deploy), and Prometheus (monitor).
+- DevOps: collaboration + automation for faster, safer delivery.
+- DORA: deployment frequency, lead time, change failure rate, MTTR.
 
 ## Deep Dive
-- **Plan:** Define goals and requirements using tools like Jira or Trello.  
-- **Code:** Developers write and manage code in repositories such as Git.  
-- **Build:** Code is compiled and packaged using tools like Jenkins or Maven.  
-- **Test:** Automated testing tools (e.g., Selenium, JUnit) ensure quality.  
-- **Release & Deploy:** Docker or Kubernetes automate deployment to environments.  
-- **Operate & Monitor:** Tools like Prometheus and Grafana track performance and issues.
+- How to measure each; examples of improving DF/MTTR.
 
 ## References
-- Atlassian DevOps Guide  
-- Microsoft Learn: DevOps Life Cycle
-
+- Accelerate (Forsgren et al.)

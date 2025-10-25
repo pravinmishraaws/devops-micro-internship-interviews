@@ -1,0 +1,35 @@
+---
+id: Q0018
+title: ISP-User-Internet — Explain how this connection works
+difficulty: easy
+week: 00
+topics: [networking, internt, isp]
+tags: [networking, isp, internet]
+author: AngelaChibuike
+reviewed: false
+---
+
+## Question
+How does an Internet Service Provider (ISP) connect users to the Internet? Explain the key steps and components involved.
+
+## Short Answer
+- Users connect via a modem or router to the ISP’s network.  
+- ISP routes traffic through access networks (DSL, fiber, cable, or mobile).  
+- ISP connects to regional and backbone networks to reach the Internet.  
+- Data flows using IP protocols, with NAT or public IP addressing.  
+- End-to-end communication allows access to websites, email, and online services.
+
+## Deep Dive
+- **Modem/Router:** Converts user signals to ISP-compatible format.  
+- **Access Network:** DSL, fiber, cable, or mobile; links user to ISP.  
+- **Backbone & Peering:** ISPs interconnect through peering points to form global Internet.  
+- **IP Routing:** Packets are addressed and routed across multiple networks.  
+- **Protocols:** TCP/IP, DNS, DHCP, and NAT ensure delivery and address management.
+
+## Pitfalls
+- NAT misconfigurations can block incoming connections.  
+- ISP throttling or outages can impact connectivity.  
+- Legacy infrastructure may limit speed or reliability.
+
+## References
+https://www.gatewayfiber.com/blog/how-does-the-internet-get-to-your-home

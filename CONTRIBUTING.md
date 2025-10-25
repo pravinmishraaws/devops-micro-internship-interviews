@@ -26,7 +26,7 @@ python scripts/build_index.py
 - CI enforces formatting and metadata.
 - Discussions welcome for clarifications; best responses graduate to “reviewed: true”.
 
-### Step 1 — Fork & Authenticate
+## Step 1 — Fork & Authenticate
 
 Login to GitHub and Fork the mini_finance repo into your account.
 In your terminal, configure authentication:

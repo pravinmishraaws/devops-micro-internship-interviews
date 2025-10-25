@@ -7,7 +7,6 @@
 |---|---|---|---|---|
 | Q0501 | Resource Groups, VNets, Subnets, NSGs — how they fit | entry | azure, resource-groups, vnet, subnet, nsg | [Open](questions/Q0501-azure-rg-vnet-subnet-nsg.md) |
 | Q0505 | Azure Subscription ID | entry | azure, subscription-id | [Open](questions/Q0505-azure-subcription-id.md) |
-| Q0506 | Benefits of Using Azure Bastion in a Three-Tier Architecture | intermediate | azure-bastion, ssh, three-tier | [Open](questions/Q0506-azure-AzureBastion.md) |
+| Q0506 | Benefits of Using Azure Bastion in a Three-Tier Architecture | medium | azure-bastion, ssh, three-tier | [Open](questions/Q0506-azure-AzureBastion.md) |
 | Q0517 | Azure Virtual Networks — secure communication architecture | medium | azure, vnet, networking, hybrid-cloud | [Open](questions/Q0517-azure-virtual-networks.md) |
 | Q0518 | Azure Storage Accounts - choosing the right service for unstructured data | easy | azure, storage, blob, files | [Open](questions/Q0518-azure-storage-accounts.md) |
-| Q0506 | Benefits of Using Azure Bastion in a Three-Tier Architecture | intermediate | azure-bastion, ssh, three-tier | [Open](questions/Q506-azure-AzureBastion.md) |

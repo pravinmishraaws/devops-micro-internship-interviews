@@ -28,8 +28,8 @@ python scripts/build_index.py
 
 ## Step 1 — Fork & Authenticate
 
-Login to GitHub and Fork the mini_finance repo into your account.
-In your terminal, configure authentication:
+- Login to GitHub and Fork the (devops-micro-internship-interviews)[https://github.com/pravinmishraaws/devops-micro-internship-interviews] repo into your account.
+- In your terminal, configure authentication:
 
 #### SSH (Recommended)
 

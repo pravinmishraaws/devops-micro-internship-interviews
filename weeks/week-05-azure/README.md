@@ -3,6 +3,8 @@
 **Focus:** Brief overview for this week.
 
 ## Index
-| ID | Title | Difficulty | Tags | Link |
-|---|---|---|---|---|
-| Q0501 | Resource Groups, VNets, Subnets, NSGs — how they fit | entry | azure, resource-groups, vnet, subnet, nsg | [Open](questions/Q0501-azure-rg-vnet-subnet-nsg.md) |
+
+| ID    | Title                                                | Difficulty | Tags                                        | Link                                                |
+| ----- | ---------------------------------------------------- | ---------- | ------------------------------------------- | --------------------------------------------------- |
+| Q0501 | Resource Groups, VNets, Subnets, NSGs — how they fit | entry      | azure, resource-groups, vnet, subnet, nsg   | [Open](questions/Q0501-azure-rg-vnet-subnet-nsg.md) |
+| Q0510 | VM vs App Service                                    | entry      | azure, compute, iaas, paas, vm, app-service | [Open](questions\Q0510-vm-vs-app-service.md)        |

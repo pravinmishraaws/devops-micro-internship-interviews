@@ -62,7 +62,7 @@ git ls-remote git@github.com:yourusername/devops-micro-internship-interviews.git
 
 ---
 
-#### Step 2 — Clone Your Fork Locally
+## Step 2 — Clone Your Fork Locally
 
 ```bash
 git clone git@github.com:yourusername/devops-micro-internship-interviews.git

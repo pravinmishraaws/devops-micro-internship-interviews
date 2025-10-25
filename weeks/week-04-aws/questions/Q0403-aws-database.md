@@ -3,7 +3,7 @@ id: Q0402
 title: AWS networking
 difficulty: easy
 week: 04
-topics: [aws, databe]
+topics: [aws, databse]
 tags: [aws, database]
 author: Hassan
 reviewed: false

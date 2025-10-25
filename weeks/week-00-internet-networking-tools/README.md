@@ -14,4 +14,8 @@
 >>>>>>> 56c62b2 (Modified README.md for week 00)
 =======
 | Q0002 | DNS — why is it important in DevOps? | entry | networking, Network Fundamentals, tcpip, OSI Layer 7 | [Open](questions/Q0002-DNS.md) |
+<<<<<<< HEAD
 >>>>>>> 3141ded (modified Q0002 in week 00)
+=======
+| Q0003 | DNS Resolution Troubleshooting | medium | networking, DNS troubleshooting, tcpip, OSI Layer 7 | [Open](questions/Q0003-DNS-Troubleshooting.md) |
+>>>>>>> 8c75a28 (Added Q0003 and modified README.md in Week 00)

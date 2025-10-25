@@ -2,10 +2,10 @@
 id: Q1900
 title: "How do you diagnose a slow server using Linux commands?"
 difficulty: medium
-week: 1
+week: 01
 topics: [linux, system-administration, performance]
 tags: [troubleshooting, diagnostics, performance-monitoring, linux]
-author: YourGitHubUsername
+author: nkydigitech
 reviewed: false
 ---
 

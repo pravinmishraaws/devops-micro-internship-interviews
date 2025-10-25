@@ -1,5 +1,5 @@
 ---
-id: Q0403
+id: Q0404
 title: AWS networking
 difficulty: easy
 week: 04
@@ -16,4 +16,4 @@ How do you connect to an EC2 instance from your local machine?
 
 
 ## References
-- AWS databse docs
+- AWS ec2 docs

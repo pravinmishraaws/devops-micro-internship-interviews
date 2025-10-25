@@ -28,5 +28,13 @@ If it’s local, it simply creates or uses the local terraform.tfstate file.
 
 - Writes backend metadata locally: Terraform stores backend-related data inside a hidden directory called .terraform/
 
+## Pitfalls/Gotchas 
+- Backend config is not always visible
+
+- We can’t “see” the backend directly from terraform init output unless we configured it in your .tf files.
+
+- Terraform stores backend metadata inside .terraform/ directory, not printed to console.
+
+
 ## References
 - Terraform Docs — Backends

@@ -13,14 +13,4 @@ reviewed: false
 What is the difference between git pull and git fetch?
 
 
-## Short Answer
-
-
-## Deep Dive
-
-
-## Pitfalls
-
-
-## References
 

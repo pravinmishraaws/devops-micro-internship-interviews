@@ -5,7 +5,11 @@ difficulty: medium
 week: 05
 topics: [azure, networking, security]
 tags: [azure, vnet, networking, hybrid-cloud]
+<<<<<<< HEAD
 author: "[Dudubynatur3](https://github.com/Dudubynatur3)"
+=======
+author:"[Dudubynatur3](https://github.com/Dudubynatur3)"
+>>>>>>> 54e801b (Added Q0002 in Week 00)
 reviewed: false
 ---
 

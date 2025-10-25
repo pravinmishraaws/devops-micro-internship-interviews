@@ -8,11 +8,11 @@ Thanks for helping build this community resource! Every improvement helps future
 
 ## Checklist (Do These)
 
-* [ ] **One question per file** in `weeks/<week>/questions/`. 
+* [ ] **One question per file** in `weeks/<week>/questions/`.   
   *Why:* Keeps reviews small and searchable.
-* [ ] File name: **`Q####-kebab-title.md`** (e.g., `Q0401-iam-role-vs-user.md`). 
+* [ ] File name: **`Q####-kebab-title.md`** (e.g., `Q0401-iam-role-vs-user.md`).   
   *Why:* Consistent IDs make indexing and linking reliable.
-* [ ] Include **frontmatter** fields: `id, title, difficulty, week, topics, tags, author, reviewed`. 
+* [ ] Include **frontmatter** fields: `id, title, difficulty, week, topics, tags, author, reviewed`.   
   *Why:* Metadata powers validation, search, and dashboards.
 * [ ] Run validators before committing: 
 
@@ -21,9 +21,9 @@ Thanks for helping build this community resource! Every improvement helps future
   ```
 
   *Why:* CI will fail otherwise—faster feedback locally.
-* [ ] Add/update references; **avoid plagiarism** (cite sources). 
+* [ ] Add/update references; **avoid plagiarism** (cite sources).   
   *Why:* This is a learning resource—be fair and accurate.
-* [ ] Answer layout: **Short Answer** → **Deep Dive** → **Pitfalls** → **References**. 
+* [ ] Answer layout: **Short Answer** → **Deep Dive** → **Pitfalls** → **References**.   
   *Why:* Mimics interview flow: quick reply, then depth and nuance.
 
 ---
@@ -233,16 +233,9 @@ git commit -m "question(Q####): add IAM role vs user with pitfalls and refs"
 
 ---
 
-## Step 4 — Sync With Upstream & Push to Your Fork
-
-
-
+# Step 4 — Sync With Upstream & Push to Your Fork
 
 Great follow-up. Here’s how I’d **update Step 4** so it’s crystal-clear what changes if you want a **clean history** vs. a **single-commit PR**.
-
----
-
-# Step 4 — Sync With Upstream & Push to Your Fork
 
 ### 4.1 Keep `main` up to date (fast-forward only)
 

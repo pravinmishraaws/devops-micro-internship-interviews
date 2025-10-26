@@ -6,6 +6,7 @@ week: 5
 topics: [azure, architecture, management]
 tags: [azure, cluster, self-healing]
 author: WhitneyKataka
+
 reviewed: false
 ---
 
@@ -14,3 +15,4 @@ How does migrating from a single server to a clustered setup in Azure improve so
 
 ## References
 Microsoft Azure Documentation - Azure Kubernetes Service (AKS)
+

@@ -1,7 +1,7 @@
 ---
 id: Q0506
 title: Benefits of Using Azure Bastion in a Three-Tier Architecture
-difficulty: medium
+difficulty: entry
 week: 05
 topics: [azure, networking, security, architecture]
 tags: [azure-bastion, ssh, three-tier]

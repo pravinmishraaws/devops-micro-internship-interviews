@@ -1,177 +1,81 @@
-# Contributing
+# Contributing Guide
 
 Thanks for helping build this community resource! Every improvement helps future learners.
-
-> **Goal:** create high-quality, searchable, and reviewable interview Q&A—organized by week—so students can practice effectively and reviewers can maintain consistency at scale.
-
----
-
-## Checklist (Do These)
-
-* [ ] **One question per file** in `weeks/<week>/questions/`.   
-  *Why:* Keeps reviews small and searchable.
-* [ ] File name: **`Q####-kebab-title.md`** (e.g., `Q0401-iam-role-vs-user.md`).   
-  *Why:* Consistent IDs make indexing and linking reliable.
-* [ ] Include **frontmatter** fields: `id, title, difficulty, week, topics, tags, author, reviewed`.   
-  *Why:* Metadata powers validation, search, and dashboards.
-* [ ] Run validators before committing: 
-
-  ```bash
-  python scripts/validate_frontmatter.py && python scripts/build_index.py
-  ```
-
-  *Why:* CI will fail otherwise—faster feedback locally.
-* [ ] Add/update references; **avoid plagiarism** (cite sources).   
-  *Why:* This is a learning resource—be fair and accurate.
-* [ ] Answer layout: **Short Answer** → **Deep Dive** → **Pitfalls** → **References**.   
-  *Why:* Mimics interview flow: quick reply, then depth and nuance.
+**Goal:** high-quality, searchable interview Q&A—organized by week—with consistent metadata.
 
 ---
 
-## Difficulty Levels
+## Contents
 
-Use one of: `entry | easy | medium | hard | expert`
-*Why:* Helps learners choose the right challenge level.
-
----
-
-## Frontmatter Template (Copy This)
-
-```yaml
----
-id: Q0001
-title: OSI vs TCP/IP — what’s the practical difference?
-difficulty: entry
-week: 00
-topics: [networking, models]
-tags: [networking, osi, tcpip]
-author: pravinmishraaws
-reviewed: false
----
-
-## Question
-Compare OSI and TCP/IP models and explain how they map to real-world troubleshooting.
-
-## Short Answer
-- OSI is a teaching model (7 layers); TCP/IP is pragmatic (4–5 layers) used on the Internet.
-- Map examples: DNS (app), TCP/UDP (transport), IP (network), Ethernet/Wi‑Fi (link).
-- Troubleshoot top→down or bottom→up; verify each layer (DNS, TCP handshake, routing, link).
-
-## Deep Dive
-- Mapping table, typical tools: `ping`, `traceroute`, `dig`, `curl`, `tcpdump`.
-
-## Pitfalls
-- Confusing DNS failures (app) with network reachability (IP/route).
-
-## References
-- https://datatracker.ietf.org/doc/html/rfc1122
-
----
-```
-
-> **Tip:** `id` must match the file name’s number (e.g., `Q0401` ↔ `Q0401-...md`).
+1. [Prerequisites](#prerequisites)
+2. [First-Time Setup (once)](#first-time-setup-once)  
+    • Step 1 — Fork & Authenticate  
+    • Step 2 — Clone Your Fork Locally  
+    • Step 3 — Install deps & Pre-commit Hook  
+3. [Your First PR (end-to-end)](#your-first-pr-end-to-end)
+4. [Every PR: Quick Checklist](#every-pr-quick-checklist)
+5. [Keeping Your Fork in Sync](#keeping-your-fork-in-sync)
+6. [Answer Structure & Frontmatter](#answer-structure--frontmatter)
+7. [Commit & PR Conventions](#commit--pr-conventions)
+8. [Reviews, Governance & FAQ](#reviews-governance--faq)
 
 ---
 
-## Recommended Answer Structure
+## Prerequisites
 
-```markdown
-## Short Answer
-Concise, interviewer-ready definition in 2–4 sentences.
+* Git (with **SSH** or HTTPS set up)
+* **Python 3.11+**
+* Bash (Git Bash on Windows is fine)
 
-## Deep Dive
-- Explain the concept with context and trade-offs.
-- Add examples, diagrams (if useful), and edge cases.
+> Why: Contributors run two scripts locally to validate metadata and rebuild the index.
 
-## Pitfalls / Gotchas
-- Common mistakes and how to avoid them.
-
-## References
-- Official docs
-- High-quality blogs or whitepapers
-```
-
-*Why:* Consistent structure makes contributions skimmable and reviewable.
+> Don’t edit .github/** or scripts/**.
+> If you need something changed there, open an issue or propose the change under meta/proposals/ and maintainers will 
+> apply it.
 
 ---
 
-## Local Development
+## First-Time Setup (once)
 
-### macOS / Linux
+### Step 1 — Fork & Authenticate
 
-```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r scripts/requirements.txt
-python scripts/validate_frontmatter.py
-python scripts/build_index.py
-```
+1. **Fork** the repo:
+   [https://github.com/pravinmishraaws/devops-micro-internship-interviews](https://github.com/pravinmishraaws/devops-micro-internship-interviews.git)
 
-### Windows (PowerShell)
+2. **Authenticate Git**
+   **SSH (recommended):**
 
-```powershell
-py -m venv .venv
-. .\.venv\Scripts\Activate.ps1
-pip install -r scripts\requirements.txt
-python scripts\validate_frontmatter.py
-python scripts\build_index.py
-```
+   ```bash
+   ssh-keygen -t ed25519 -C "your.email@example.com"
+   eval "$(ssh-agent -s)"
+   ssh-add ~/.ssh/id_ed25519
+   ```
 
-*Why:* Running validators locally saves CI cycles and reviewer time.
+   Add `~/.ssh/id_ed25519.pub` to GitHub → **Settings → SSH and GPG keys**.
 
----
+   Force SSH for GitHub (avoids HTTPS prompts):
 
-## Governance & Reviews
+   ```bash
+   git config --global url."git@github.com:".insteadOf "https://github.com/"
+   ```
 
-* **CODEOWNERS** approval is required for the **week(s)** your change touches.  
-  *Why:* Ensures subject-matter review.
-* **CI** enforces formatting and metadata.  
-  *Why:* Keeps the repo tidy and searchable.
-* Use **Discussions** for clarifications. The best responses graduate to `reviewed: true`.  
-  *Why:* Promotes consensus before code.
+   **HTTPS (alternative):**
 
----
+   ```bash
+   git config --global credential.helper cache
+   ```
 
-## Step 1 — Fork & Authenticate
+3. **Test**:
 
-1. **Fork** the repo to your account:
-   [https://github.com/pravinmishraaws/devops-micro-internship-interviews](https://github.com/pravinmishraaws/devops-micro-internship-interviews)
-   *Why:* You can’t push to the original; forks are the standard workflow.
+   ```bash
+   ssh -T git@github.com
+   ```
 
-2. **Authenticate Git** so pushes work from your terminal.
-
-### SSH (Recommended)
-
-```bash
-ssh-keygen -t ed25519 -C "your.email@example.com"
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-```
-
-Copy the contents of `~/.ssh/id_ed25519.pub` into GitHub → **Settings → SSH and GPG keys**.
-
-Force Git to use SSH (avoids https prompts):
-
-```bash
-git config --global url."git@github.com:".insteadOf "https://github.com/"
-```
-
-### HTTPS (Alternative)
-
-```bash
-git config --global credential.helper cache
-```
-
-### Test Authentication
-
-```bash
-git ls-remote git@github.com:yourusername/devops-micro-internship-interviews.git
-```
-
-✅ **Expected:** You have a fork and your terminal can talk to GitHub.
+   Expected: greeting from GitHub.
 
 ---
 
-## Step 2 — Clone Your Fork Locally
+### Step 2 — Clone Your Fork Locally
 
 ```bash
 git clone git@github.com:yourusername/devops-micro-internship-interviews.git
@@ -179,224 +83,288 @@ cd devops-micro-internship-interviews
 git remote -v
 ```
 
-* `origin` → your fork
-
-Add `upstream` (the original):
+Add the original repo as `upstream`:
 
 ```bash
 git remote add upstream https://github.com/pravinmishraaws/devops-micro-internship-interviews.git
+
+# Now, check remote again
+git remote -v
 ```
 
-✅ **Expected:** You have **origin** (your fork) and **upstream** (original).
-*Why:* Keeps your fork fresh and conflict-free.
+> Why: You’ll pull updates from `upstream` and push your work to `origin` (your fork).
 
 ---
 
-## Step 3 — Create a Feature Branch & Make a Change
+### Step 3 — Install Deps & Pre-commit Hook
 
-Create a new branch:
+Create a virtualenv and install deps:
+
+**macOS / Linux**
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r scripts/requirements.txt
+```
+
+**Windows (PowerShell)**
+
+```powershell
+py -m venv .venv
+. .\.venv\Scripts\Activate.ps1
+pip install -r scripts\requirements.txt
+```
+
+#### (Recommended) One-shot setup script
+
+[Mac, Linux user ] Create `scripts/setup.sh` (commit this file to repo) and include the pre-commit hook installer:
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Create venv if missing
+if [ ! -d ".venv" ]; then
+  python -m venv .venv
+fi
+
+# Activate venv (POSIX shells)
+# shellcheck source=/dev/null
+source .venv/bin/activate || true
+
+# Fallback for Git Bash on Windows
+if [ ! -n "${VIRTUAL_ENV-}" ] && [ -f ".venv/Scripts/activate" ]; then
+  # shellcheck disable=SC1091
+  . .venv/Scripts/activate
+fi
+
+pip install -r scripts/requirements.txt
+
+# Install pre-commit hook
+HOOK_PATH=".git/hooks/pre-commit"
+echo "Setting up pre-commit hook..."
+cat > "$HOOK_PATH" <<'EOF'
+#!/bin/bash
+echo "🧹 Running pre-commit validation..."
+python scripts/validate_frontmatter.py || exit 1
+python scripts/build_index.py || exit 1
+echo "✅ Validation passed!"
+EOF
+chmod +x "$HOOK_PATH"
+echo "✅ Pre-commit hook installed successfully!"
+```
+
+[ Windows User ] helper (scripts/setup.ps1) for PowerShell users:
+
+```bash
+$ErrorActionPreference = "Stop"
+
+if (-not (Test-Path ".venv")) {
+  py -m venv .venv
+}
+
+. .\.venv\Scripts\Activate.ps1
+pip install -r scripts\requirements.txt
+
+$hookPath = ".git/hooks/pre-commit"
+@"
+#!/bin/bash
+echo "🧹 Running pre-commit validation..."
+python scripts/validate_frontmatter.py || exit 1
+python scripts/build_index.py || exit 1
+echo "✅ Validation passed!"
+"@ | Out-File -FilePath $hookPath -Encoding ascii -NoNewline
+bash -lc "chmod +x $hookPath"
+Write-Host "✅ Pre-commit hook installed successfully!"
+```
+
+Run it once:
+
+```bash
+bash scripts/setup.sh
+```
+
+> Now **every commit** will auto-run:
+> `python scripts/validate_frontmatter.py` and `python scripts/build_index.py` and block bad commits.
+
+---
+
+## Your First PR (end-to-end)
+
+1. **Sync main (fast-forward only)**
+
+```bash
+git fetch upstream
+git checkout main
+git pull --ff-only upstream main
+```
+
+2. **Create a feature branch**
 
 ```bash
 git checkout -b Q####-kebab-title
 ```
 
-Add or edit your question file:
+3. **Add your question**
 
-* Go to: `weeks/<week>/questions/`
-* Create (or copy) `Q####-kebab-title.md`
-* Edit the content following the template
+* Path: `weeks/<week>/questions/`
+* File: `Q####-kebab-title.md`
+* Include frontmatter and sections (see below)
 
-```markdown
-# (Your question title)
+4. **Run validators manually (optional)**
 
-## Short Answer
-...
-
-## Deep Dive
-...
-
-## Pitfalls / Gotchas
-...
-
-## References
-- ...
+```bash
+python scripts/validate_frontmatter.py && python scripts/build_index.py
 ```
 
-Stage & commit:
+5. **Commit** (pre-commit will auto-validate)
 
 ```bash
 git add weeks/<week>/questions/Q####-kebab-title.md
-git commit -m "question(Q####): add IAM role vs user with pitfalls and refs"
+git commit -m "question(Q0401): add IAM role vs user with pitfalls and refs"
 ```
 
-*Why:* Small, focused branches are easier to review and iterate.
+6. **Push & open PR**
+
+```bash
+git push -u origin Q####-kebab-title
+```
+
+On GitHub → **Compare & pull request**.
+Base: `pravinmishraaws/main` • Compare: `yourusername/Q####-kebab-title`
+
+7. **Fill PR description**
+
+* What you added, which week, validation passed, any notes
 
 ---
 
-# Step 4 — Sync With Upstream & Push to Your Fork
+## Every PR: Quick Checklist
 
-Great follow-up. Here’s how I’d **update Step 4** so it’s crystal-clear what changes if you want a **clean history** vs. a **single-commit PR**.
+* [ ] **One question per file** → `weeks/<week>/questions/Q####-kebab-title.md`
+* [ ] **Frontmatter** includes: `id, title, difficulty, week, topics, tags, author, reviewed`
+* [ ] **Structure**: Short Answer → Deep Dive → Pitfalls → References
+* [ ] **Run locally** (auto via pre-commit) or manually:
 
-### 4.1 Keep `main` up to date (fast-forward only)
+  ```bash
+  python scripts/validate_frontmatter.py && python scripts/build_index.py
+  ```
+* [ ] **Rebase on main** before pushing
+* [ ] **Cite sources**; avoid plagiarism
+
+> Why: CI runs the same checks—passing locally saves reviewers’ time.
+
+---
+
+## Keeping Your Fork in Sync
+
+**Before you start or when PRs merge:**
 
 ```bash
 git fetch upstream
 git checkout main
-git pull --ff-only upstream main   # or: git merge --ff-only upstream/main
-```
-
-*Why:* Brings your `main` to the latest without creating a merge commit.
-
-### 4.2 Rebase your feature branch (linear history)
-
-```bash
+git pull --ff-only upstream main
 git checkout Q####-kebab-title
 git rebase main
-# If conflicts: fix files -> git add <files> -> git rebase --continue
-# To abort: git rebase --abort
+# If conflicts: fix -> git add <files> -> git rebase --continue
+# If you rewrote history: 
+git push --force-with-lease origin Q####-kebab-title
 ```
 
-*Why:* Replays your commits on top of the latest `main`, removing noisy merge commits and making the PR diff smaller.
-
-### 4.3 (Optional) Squash to one commit **if you want a single-commit PR**
-
-* Interactive rebase:
-
-  ```bash
-  git rebase -i main
-  # change all but the first commit from "pick" to "s" (squash), then save
-  ```
-
-  **or**
-* Soft reset + single commit:
-
-  ```bash
-  git reset --soft main
-  git commit -m "question(Q0405): add aws-security with references"
-  ```
-
-*Why:* Squashing turns your branch history into one logical commit. If you skip this, you’ll keep multiple commits (still linear).
-
-### 4.4 Push
-
-* **First push** (branch hasn’t been pushed before):
-
-  ```bash
-  git push -u origin Q####-kebab-title
-  ```
-* **After a rebase/squash** (history rewritten):
-
-  ```bash
-  git push --force-with-lease origin Q####-kebab-title
-  ```
-
-*Why:* `--force-with-lease` safely updates the remote without clobbering others’ work.
+> Why: Linear history keeps diffs clean and reviews fast.
 
 ---
 
-## Expected outcomes
+## Answer Structure & Frontmatter
 
-* **After 4.2 (rebase only):**
-  Your PR will be **linear** and easy to review, but it may still show **multiple commits**.
+### Frontmatter (copy/paste)
 
-* **After 4.3 (squash + rebase):**
-  Your PR will show **one commit** (plus any review fixups you add later).
-  Alternatively, maintainers can click **“Squash and merge”** on GitHub to land it as a single commit even if your PR has several.
+```yaml
+---
+id: Q0001
+title: OSI vs TCP/IP — what’s the practical difference?
+difficulty: entry         # one of: entry | easy | medium | hard | expert
+week: 00
+topics: [networking, models]
+tags: [networking, osi, tcpip]
+author: yourgithubusername
+reviewed: false
+---
+```
+
+**Tip:** `id` number must match the file name (`Q0001-…md`).
+
+### Recommended sections
+
+```markdown
+## Short Answer
+2–4 sentences an interviewer could accept.
+
+## Deep Dive
+Context, trade-offs, examples, diagrams if helpful, commands.
+
+## Pitfalls
+Common mistakes and how to avoid them.
+
+## References
+- Official docs
+- High-quality blogs, RFCs, whitepapers
+```
 
 ---
 
-## Step 5 — Open a Pull Request
+## Commit & PR Conventions
 
-1. Go to your fork on GitHub.
-
-2. Click **Compare & pull request**.
-
-3. Base: `pravinmishraaws/devops-micro-internship-interviews:main`
-   Compare: `yourusername:Q####-kebab-title`
-
-4. **Title** (use Conventional Commits where possible):
-
-   ```
-   question(Q0401): add IAM role vs user with pitfalls and references
-   ```
-
-5. **Description** (be clear and specific):
-
-   ```
-   Adds Q0401 under week 4 with Short Answer, Deep Dive, Pitfalls, and References.
-   Includes frontmatter and passes metadata validation.
-   ```
-
-6. Submit the PR.
-
-*Why:* Clear titles/descriptions speed up reviews and indexing.
-
----
-
-## Commit Message Guidance (Conventional Commits)
-
-Use a type + scope when possible:
+**Conventional Commit** examples:
 
 ```
 question(Q0401): add IAM role vs user
-docs: update contributing examples
-chore: fix build index script path
+docs: improve contributing guide with pre-commit hook
+chore: fix build index path
 ```
 
-*Why:* Predictable history helps future auditing and automation.
+**PR title**:
+
+```
+question(Q0401): add IAM role vs user with pitfalls and references
+```
+
+**PR description**:
+
+* What changed (week, file)
+* Validation passed locally
+* Any reviewer notes
 
 ---
 
-## Quality Bar (What Reviewers Look For)
+## Reviews, Governance & FAQ
 
-* **Accuracy:** No factual errors; trade-offs mentioned where relevant.
-* **Clarity:** Short Answer is crisp; Deep Dive adds real value.
-* **Citations:** Official docs or reputable sources in **References**.
-* **Consistency:** Naming, `id`, and frontmatter fields match conventions.
-* **Validation:** Scripts pass locally and in CI.
+**Reviews & Governance**
 
----
+* PRs require **CODEOWNERS** approval for the week you changed
+* CI enforces metadata/formatting; blocked PRs must be fixed and re-pushed
+* High-quality answers are later marked `reviewed: true`
 
-## Common Pitfalls & Quick Fixes
+**Common Pitfalls**
 
-* **Mismatch:** `id` in frontmatter ≠ file name number → *Fix both to match.*
-* **Missing fields:** Validation script fails → *Copy the template frontmatter.*
-* **Long walls of text:** No Short Answer/Pitfalls → *Refactor into sections.*
-* **No references:** Add **at least one** official doc link.
+| Issue                        | Fix                                             |
+| ---------------------------- | ----------------------------------------------- |
+| `id` doesn’t match file name | Rename file or update `id` to match             |
+| Missing frontmatter field    | Copy template again; run validator              |
+| Multiple questions in one PR | Split into separate PRs                         |
+| Failing CI                   | Run both scripts locally; read the error output |
 
----
+**FAQ**
 
-## Code of Conduct
+* *Can I update an existing answer?* Yes—explain the change in your PR.
+* *Can I submit multiple questions in one PR?* Prefer **one per PR**.
+* *Do I need SSH?* Recommended. HTTPS works with cached credentials.
 
-Be respectful, constructive, and kind. Disagreements are fine—disrespect isn’t.
-*Why:* This is a learning space; we optimize for safety and growth.
-
----
-
-## FAQ
-
-**Q: Can I add multiple questions in one PR?**
-A: Prefer **one question per PR**. Easier to review and revert if needed.
-
-**Q: Can I update an existing answer?**
-A: Yes. Explain **what** changed and **why** in your PR description.
-
-**Q: My CI failed—what now?**
-A: Run the local validators, fix frontmatter or structure, and push again.
+**Code of Conduct**
+Be respectful and constructive. Disagreements are fine—disrespect isn’t.
 
 ---
 
-## Maintainers’ Notes (for transparency)
+### Thanks!
 
-* PRs touching certain weeks require **CODEOWNERS** approvals.
-* CI checks formatting and schema; failing PRs will be blocked until fixed.
-* High-quality answers will be marked `reviewed: true` after consensus.
-
----
-
-### Thank you!
-
-Your contributions help hundreds of learners prepare with confidence. 🙌
-
-
-If you want, I can also create a **PR template** (`.github/pull_request_template.md`) and a **contribution issue template** to guide first-timers.
+Your contributions help hundreds of learners practice confidently. 🙌

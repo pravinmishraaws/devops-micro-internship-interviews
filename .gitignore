@@ -1,19 +1,24 @@
-<<<<<<< HEAD
+# macOS system files
 .DS_Store
 
+# Project setup scripts
 scripts/setup.sh
 
-# Ignore Python virtual environments
+# Python virtual environments
 .venv/
 venv/
 env/
 
-# Optional: also ignore common compiled files
+# Python cache and compiled files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.pycache__
-=======
-.venv/
->>>>>>> 3abeacb (question(Q0655): add terraform state locking and consistency)
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+

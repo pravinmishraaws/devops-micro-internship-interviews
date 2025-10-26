@@ -1,11 +1,11 @@
 ---
 id: Q0510
-title: IaaS vs PaaS: VM vs App Service
+title: IaaS vs PaaS - VM vs App Service
 difficulty: entry
 week: 05
 topics: [azure, compute, app-service]
 tags: [Azure, compute, iaas, paas, vm, app-service]
-author: [Syedsaleha](https://github.com/Syedsaleha) 
+author: [Syedsaleha]
 reviewed: false
 ---
 

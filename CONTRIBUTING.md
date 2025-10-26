@@ -29,6 +29,10 @@ Thanks for helping build this community resource! Every improvement helps future
 
 > Why: Contributors run two scripts locally to validate metadata and rebuild the index.
 
+> Don’t edit .github/** or scripts/**.
+> If you need something changed there, open an issue or propose the change under meta/proposals/ and maintainers will 
+> apply it.
+
 ---
 
 ## First-Time Setup (once)

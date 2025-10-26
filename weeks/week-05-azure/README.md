@@ -17,9 +17,11 @@ Each question includes practical examples and common pitfalls to watch out for. 
 | ID | Title | Difficulty | Tags | Link |
 |---|---|---|---|---|
 | Q0501 | Resource Groups, VNets, Subnets, NSGs — how they fit | entry | azure, resource-groups, vnet, subnet, nsg | [Open](questions/Q0501-azure-rg-vnet-subnet-nsg.md) |
-| Q0506 | Azure Subscription ID — why it is required | entry | azure, subscription-id, management | [Open](questions/Q0506-azure-subscription-id.md) |
-| Q0507 | Azure Bastion — secure access in three-tier architecture | intermediate | azure, bastion, ssh, security, architecture | [Open](questions/Q0507-azure-bastion.md) |
-| Q0508| Troubleshooting Failed Resource Deployment using Azure CLI | medium | azure, troubleshooting, cli, deployment | [Open](questions/Q0510-azure-cli-troubleshooting.md) |
-| Q0517 | Azure Virtual Networks — secure communication architecture | medium | azure, vnet, networking, hybrid-cloud | [Open](questions/Q0517-azure-virtual-networks.md) |
+| Q0504 | Azure Subscription ID | entry | azure, subscription-id | [Open](questions/Q0504-azure-subcription-id.md) |
+| Q0506 | Benefits of Using Azure Bastion in a Three-Tier Architecture | entry | azure-bastion, ssh, three-tier | [Open](questions/Q0506-azure-AzureBastion.md) |
+| Q0508 | Troubleshooting Failed Resource Deployments Using Azure CLI | entry | azure-cli, resource-manager, deployment-failure | [Open](questions/Q0508-azure-azurecli.md) |
+| Q0510 | IaaS vs PaaS - VM vs App Service | entry | Azure, compute, iaas, paas, vm, app-service | [Open](questions/Q0510-vm-vs-app-service.md) |
+| Q0513 | EpicBook Clustered Platform Migration | entry | azure, cluster, self-healing | [Open](questions/Q0513-migrating-epicbook-clustered-self-healing.md) |
+| Q0515 | Secure Communication Between Three-Tier Application Layers | medium | nsg, subnet, vnet, firewall, azure | [Open](questions/Q0515-secure-communication-three-tier.md) |
+| Q0516 | Automatic Scaling of EpicBook in Azure | medium | autoscale, load-balancer, performance, azure | [Open](questions/Q0516-automatic-scaling-epicbook.md) |
 | Q0518 | Azure Storage Accounts - choosing the right service for unstructured data | easy | azure, storage, blob, files | [Open](questions/Q0518-azure-storage-accounts.md) |
-| Q0513 | Migrating EpicBook to a Clustered, Self-Healing Platform | medium | cluster, azure, automation, self-healing | [Open](questions/Q0513-migrating-epicbook-clustered-self-healing.md) |

@@ -1,7 +1,7 @@
 ---
 id: Q0508
 title: Troubleshooting Failed Resource Deployments Using Azure CLI
-difficulty: intermediate
+difficulty: entry
 week: 05
 topics: [azure, cli, troubleshooting, deployment]
 tags: [azure-cli, resource-manager, deployment-failure]

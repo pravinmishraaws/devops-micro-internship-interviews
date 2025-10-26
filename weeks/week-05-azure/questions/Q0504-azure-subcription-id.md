@@ -1,5 +1,5 @@
 ---
-id: Q0505
+id: Q0504
 title: Azure Subscription ID
 difficulty: entry
 week: 05

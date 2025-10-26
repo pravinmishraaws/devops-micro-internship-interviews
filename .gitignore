@@ -1,5 +1,7 @@
 .DS_Store
 
+scripts/setup.sh
+
 # Ignore Python virtual environments
 .venv/
 venv/

@@ -113,7 +113,7 @@ pip install -r scripts\requirements.txt
 
 #### (Recommended) One-shot setup script
 
-Create `scripts/setup.sh` (commit this file to repo) and include the pre-commit hook installer:
+[Mac, Linux user ] Create `scripts/setup.sh` (commit this file to repo) and include the pre-commit hook installer:
 
 ```bash
 #!/usr/bin/env bash
@@ -148,6 +148,30 @@ echo "✅ Validation passed!"
 EOF
 chmod +x "$HOOK_PATH"
 echo "✅ Pre-commit hook installed successfully!"
+```
+
+[ Windows User ] helper (scripts/setup.ps1) for PowerShell users:
+
+```bash
+$ErrorActionPreference = "Stop"
+
+if (-not (Test-Path ".venv")) {
+  py -m venv .venv
+}
+
+. .\.venv\Scripts\Activate.ps1
+pip install -r scripts\requirements.txt
+
+$hookPath = ".git/hooks/pre-commit"
+@"
+#!/bin/bash
+echo "🧹 Running pre-commit validation..."
+python scripts/validate_frontmatter.py || exit 1
+python scripts/build_index.py || exit 1
+echo "✅ Validation passed!"
+"@ | Out-File -FilePath $hookPath -Encoding ascii -NoNewline
+bash -lc "chmod +x $hookPath"
+Write-Host "✅ Pre-commit hook installed successfully!"
 ```
 
 Run it once:

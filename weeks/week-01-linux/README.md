@@ -6,6 +6,7 @@
 | ID | Title | Difficulty | Tags | Link |
 |---|---|---|---|---|
 | Q0101 | How do you diagnose a slow server using Linux commands? | medium | troubleshooting, diadnosics, performance-monitoring | [Open](questions/Q0101-linux-permissions-vs-acl.md) |
+| Q0110 | Linux optimization | easy | linux, optimization | [Open](questions/Q0110-Linux-optimization.md) |
 | Q1900 | How do you diagnose a slow server using Linux commands? | medium | troubleshooting, diagnostics, performance-monitoring, linux | [Open](questions/Q1900-diagnose-slow-server-linux.md) |
 | Q1901 | How do you debug a container that cannot reach the internet? | medium | troubleshooting, docker-networking, connectivity, containers | [Open](questions/Q1901-debug-container-internet-connectivity.md) |
 | Q1902 | How do you secure SSH access to production servers? | medium | ssh-hardening, security-best-practices, access-control | [Open](questions/Q1902-secure-ssh-access-production.md) |

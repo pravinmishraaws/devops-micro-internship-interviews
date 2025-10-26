@@ -9,7 +9,5 @@
 | Q0506 | Azure Subscription ID — why it is required | entry | azure, subscription-id, management | [Open](questions/Q0506-azure-subscription-id.md) |
 | Q0507 | Azure Bastion — secure access in three-tier architecture | intermediate | azure, bastion, ssh, security, architecture | [Open](questions/Q0507-azure-bastion.md) |
 | Q0508| Troubleshooting Failed Resource Deployment using Azure CLI | medium | azure, troubleshooting, cli, deployment | [Open](questions/Q0510-azure-cli-troubleshooting.md) |
-| Q0506 | Azure Subscription ID — why it is required | entry | azure, subscription-id, management | [Open](questions/Q0505-azure-subscription-id.md) 
-| Q0518 | Azure Bastion — secure access in three-tier architecture | intermediate | azure, bastion, ssh, security, architecture | [Open](questions/Q506-azure-AzureBastion.md) |
 | Q0517 | Azure Virtual Networks — secure communication architecture | medium | azure, vnet, networking, hybrid-cloud | [Open](questions/Q0517-azure-virtual-networks.md) |
 | Q0518 | Azure Storage Accounts - choosing the right service for unstructured data | easy | azure, storage, blob, files | [Open](questions/Q0518-azure-storage-accounts.md) |

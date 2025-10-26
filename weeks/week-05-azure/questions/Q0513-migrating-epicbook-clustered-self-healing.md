@@ -1,11 +1,12 @@
 ---
 id: Q0513
-title: Migrating EpicBook to a Clustered, Self-Healing Platform
-difficulty: medium
-week: 05
-topics: [azure, architecture, scaling, deployment]
-tags: [cluster, azure, automation, self-healing]
-author: Whitney
+title: EpicBook Clustered Platform Migration
+difficulty: entry
+week: 5
+topics: [azure, architecture, management]
+tags: [azure, cluster, self-healing]
+author: WhitneyKataka
+
 reviewed: false
 ---
 

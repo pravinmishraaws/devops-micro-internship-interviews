@@ -21,3 +21,4 @@ Each question includes practical examples and common pitfalls to watch out for. 
 | Q0514 | Safe Software Rollouts with Azure Canary Deployments | medium | canary, rollout, updates, monitoring | [Open](questions/Q0514-safe-software-rollouts-azure-canary.md) |
 | Q0515 | Secure Communication Between Three-Tier Application Layers | medium | nsg, subnet, vnet, firewall, azure | [Open](questions/Q0515-secure-communication-three-tier.md) |
 | Q0516 | Automatic Scaling of EpicBook in Azure | medium | autoscale, load-balancer, performance, azure | [Open](questions/Q0516-automatic-scaling-epicbook.md) |
+

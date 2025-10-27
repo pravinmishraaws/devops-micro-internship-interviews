@@ -2,10 +2,10 @@
 id: Q1901
 title: "How do you debug a container that cannot reach the internet?"
 difficulty: medium
-week: 1
+week: 01
 topics: [docker, networking, containers]
 tags: [troubleshooting, docker-networking, connectivity, containers]
-author: YourGitHubUsername
+author: nkydigitech
 reviewed: false
 ---
 

@@ -6,4 +6,5 @@ How to securely enable cross-account access to Amazon S3 without relying on long
 ## Index
 | ID | Title | Difficulty | Tags | Link |
 |---|---|---|---|---|
-| Q0402 | IAM Access Managment | easy | aws, iam, security | [Open](questions/Q0401-iam-security.md) |
+| Q0401 | IAM Role vs User vs Policy — differences and use cases | easy | aws, iam, security | [Open](questions/Q0401-iam-role-vs-user-vs-policy.md) |
+| Q0402 | IAM Access Managment | easy | aws, iam, security | [Open](questions/Q0402-iam-security.md) |

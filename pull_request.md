@@ -18,7 +18,7 @@ This file is used by **DMI students** to practice creating a Pull Request (PR).
 
 ## 🧑‍🎓 Student List
 
-- Minal Vaishnav — Group 5
+- Minal Vaishnav — Group 5 
 
 <!-- Add your entry below this line -->
 

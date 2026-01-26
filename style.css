@@ -1,0 +1,223 @@
+/* ---------------------------
+   Base
+---------------------------- */
+:root {
+    --brand-900: #0b3b66;
+    /* deep navy header for better contrast */
+    --brand-700: #114a80;
+    --ink: #1f2937;
+    --muted: #6b7280;
+    --paper: #ffffff;
+    --bg: #f5f7fb;
+    --border: #e5e7eb;
+    --accent: #2563eb;
+    /* link color */
+    --accent-ink: #0b3b66;
+    --ok: #22c55e;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+/* ---------------------------
+   Header
+---------------------------- */
+.site-header {
+    background: linear-gradient(180deg, var(--brand-900), var(--brand-700));
+    color: #fff;
+    padding: 2.5rem 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
+}
+
+.header-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0 0 .5rem;
+    font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+    letter-spacing: .2px;
+}
+
+.cohort-line,
+.playlist-line {
+    margin: .35rem 0;
+}
+
+.site-header a {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+/* Button style for playlist link */
+.btn {
+    display: inline-block;
+    border-radius: 999px;
+    padding: .55rem 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, .85);
+}
+
+.btn-light {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: var(--accent-ink);
+    text-decoration: none;
+}
+
+/* ---------------------------
+   Layout
+---------------------------- */
+.container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: var(--paper);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem 1.25rem 1.5rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .05);
+    margin-bottom: 1.25rem;
+}
+
+h2 {
+    color: var(--brand-900);
+    font-size: clamp(1.2rem, 2vw, 1.4rem);
+    margin: .25rem 0 1rem;
+}
+
+/* ---------------------------
+   Student form
+---------------------------- */
+.student-form {
+    display: grid;
+    gap: .85rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.field {
+    display: grid;
+    gap: .35rem;
+}
+
+.field label {
+    font-weight: 600;
+}
+
+.field input {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: .6rem .75rem;
+    font-size: 1rem;
+    background: #fff;
+}
+
+@media (max-width: 720px) {
+    .student-form {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ---------------------------
+   Notes / Answers
+---------------------------- */
+.notes-area,
+.answer {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: .75rem .9rem;
+    font-size: 0.98rem;
+    background: #fff;
+    resize: vertical;
+}
+
+.steps {
+    margin: 0 0 .5rem 1rem;
+    padding-left: 1rem;
+}
+
+.callout {
+    background: #f0f6ff;
+    border: 1px solid #dbeafe;
+    border-radius: 10px;
+    padding: .6rem .75rem;
+    margin: .5rem 0 .5rem;
+}
+
+/* ---------------------------
+   Lists / Links
+---------------------------- */
+ul {
+    margin: .5rem 0 1rem 1.25rem;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------------------
+   Code Block (for blog outline)
+---------------------------- */
+.code-block {
+    background: #0f172a;
+    color: #e5e7eb;
+    border-radius: 10px;
+    padding: 1rem;
+    overflow-x: auto;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    font-size: .9rem;
+    line-height: 1.5;
+}
+
+/* ---------------------------
+   Helpers
+---------------------------- */
+.muted {
+    color: var(--muted);
+    font-size: .95rem;
+}
+
+/* ---------------------------
+   Footer
+---------------------------- */
+.site-footer {
+    text-align: center;
+    margin: 2rem auto 0;
+    padding: 1rem;
+    background: var(--brand-900);
+    color: #fff;
+    font-size: .95rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}

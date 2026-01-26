@@ -18,7 +18,8 @@ This file is used by **DMI students** to practice creating a Pull Request (PR).
 
 ## 🧑‍🎓 Student List
 
-- Oluwaseun Adegoke — Group 5
+- **Full Name** - Group <Group Name/Number>
 
 <!-- Add your entry below this line -->
-- Oluwaseun Adegoke -5
+
+- Oluwaseun Adegoke - Group 5

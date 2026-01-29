@@ -3,6 +3,7 @@
 This file is used by **DMI students** to practice creating a Pull Request (PR).
 
 ## 📌 Instructions
+
 1. Fork this repository.
 2. Edit this `README.md` file.
 3. Add your **full name** and **group** to the list below.
@@ -10,6 +11,7 @@ This file is used by **DMI students** to practice creating a Pull Request (PR).
 5. Create a Pull Request to the **specified pull request page**.
 
 ⚠️ **Rules**
+
 - Add your name at the **end of the list only**.
 - Do not modify or remove other entries.
 - Follow the same format.
@@ -22,3 +24,4 @@ This file is used by **DMI students** to practice creating a Pull Request (PR).
 
 <!-- Add your entry below this line -->
 
+PRATYUSH PAHARI - Group 4

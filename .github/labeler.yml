@@ -1,0 +1,36 @@
+week-00:
+  - changed-files:
+      - any-glob-to-any-file: 'weeks/week-00-internet-networking-tools/**'
+week-01:
+  - changed-files:
+      - any-glob-to-any-file: 'weeks/week-01-linux/**'
+week-02:
+  - changed-files:
+      - any-glob-to-any-file: 'weeks/week-02-git-github/**'
+week-03:
+  - changed-files:
+      - any-glob-to-any-file: 'weeks/week-03-devops-lifecycle/**'
+week-04:
+  - changed-files:
+      - any-glob-to-any-file: 'weeks/week-04-aws/**'
+week-05:
+  - changed-files:
+      - any-glob-to-any-file: 'weeks/week-05-azure/**'
+week-06:
+  - changed-files:
+      - any-glob-to-any-file: 'weeks/week-06-terraform/**'
+week-07:
+  - changed-files:
+      - any-glob-to-any-file: 'weeks/week-07-ansible/**'
+week-08:
+  - changed-files:
+      - any-glob-to-any-file: 'weeks/week-08-azure-devops-cicd/**'
+week-09:
+  - changed-files:
+      - any-glob-to-any-file: 'weeks/week-09-docker/**'
+week-10:
+  - changed-files:
+      - any-glob-to-any-file: 'weeks/week-10-kubernetes/**'
+week-11:
+  - changed-files:
+      - any-glob-to-any-file: 'weeks/week-11-observability/**'

@@ -1,0 +1,24 @@
+# macOS system files
+.DS_Store
+
+# Project setup scripts
+scripts/setup.sh
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache__
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+

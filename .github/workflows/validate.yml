@@ -1,0 +1,49 @@
+name: Validate & Index
+on:
+  pull_request_target:
+    branches: [ main ]
+
+permissions:
+  contents: read   # least privilege
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      # 1) Base repo (trusted) – get your validator scripts & requirements
+      - name: Checkout base repository (trusted)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: base
+
+      # 2) PR code (untrusted) – only as data to validate
+      - name: Checkout PR head (untrusted)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps (from trusted base)
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r base/scripts/requirements.txt
+
+      - name: Validate frontmatter (point scripts at PR dir)
+        run: python base/scripts/validate_frontmatter.py pr
+
+      - name: Build week indexes (into PR workspace)
+        run: python base/scripts/build_index.py pr
+
+      - name: Fail if index changes not committed
+        working-directory: pr
+        run: |
+          if ! git diff --quiet --exit-code; then
+            echo "::error::Index tables changed. Please run scripts/build_index.py and commit the updates."
+            git --no-pager diff
+            exit 1
+          fi

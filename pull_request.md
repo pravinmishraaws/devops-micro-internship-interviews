@@ -1,3 +1,4 @@
+
 # DMI Student Acknowledgement
 
 This file is used by **DMI students** to practice creating a Pull Request (PR).
@@ -18,7 +19,7 @@ This file is used by **DMI students** to practice creating a Pull Request (PR).
 
 ## 🧑‍🎓 Student List
 
-- **Full Name** — Group <Group Name/Number>
+- **YASSIN AIT OUABBOU** — Group 1
 
 <!-- Add your entry below this line -->
 

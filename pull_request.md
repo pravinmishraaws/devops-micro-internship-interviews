@@ -18,7 +18,7 @@ This file is used by **DMI students** to practice creating a Pull Request (PR).
 
 ## 🧑‍🎓 Student List
 
-- **Full Name** — Group <Group Name/Number>
+- **Vision Khubai** — Group <Group Name/Number>
 
 <!-- Add your entry below this line -->
-
+29 jAN 2026 - I have added my solution for the DevOps DMI Internship

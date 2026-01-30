@@ -21,4 +21,8 @@ This file is used by **DMI students** to practice creating a Pull Request (PR).
 - **Full Name** — Group <Group Name/Number>
 
 <!-- Add your entry below this line -->
+<<<<<<< HEAD
+=======
+
+>>>>>>> e728f840f5e6b087eb70e4629537ab979bc6781b
 Orji Ekeoma Miracle - Group 3

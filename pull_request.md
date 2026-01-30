@@ -18,7 +18,7 @@ This file is used by **DMI students** to practice creating a Pull Request (PR).
 
 ## 🧑‍🎓 Student List
 
-- **Zainab Masoudi** — Group <Group 3>
+- Zainab Masoudi — Group 3
 
 <!-- Add your entry below this line -->
 

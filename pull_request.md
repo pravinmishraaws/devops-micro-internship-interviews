@@ -18,7 +18,7 @@ This file is used by **DMI students** to practice creating a Pull Request (PR).
 
 ## 🧑‍🎓 Student List
 
-- **Full Name** — Group <Group Name/Number>
+- **Okek Christian Chimae** — Group <Group 4>
 
 <!-- Add your entry below this line -->
 

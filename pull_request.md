@@ -18,7 +18,7 @@ This file is used by **DMI students** to practice creating a Pull Request (PR).
 
 ## 🧑‍🎓 Student List
 
-- **Chetanatma Pahariya** — Group <3>
+- Chetanatma Pahariya — Group3
 
 <!-- Add your entry below this line -->
 

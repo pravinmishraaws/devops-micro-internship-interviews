@@ -23,3 +23,6 @@ Community-driven repository of interview questions and answers aligned with the 
 4. Commit your changes and open a Pull Request. CI will run the same checks.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for full details.
+
+
+Nizarul Islam Prince — Group 2

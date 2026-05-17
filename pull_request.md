@@ -199,4 +199,6 @@ Ingvar H. - Group 1
 Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
-Yeshwanth Madineni — Group <Your Group>
+Yeshwanth Madineni — Group
+Git Learner - Group 1
+<Your Group>

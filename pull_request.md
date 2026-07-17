@@ -17,8 +17,8 @@ This file is used by **DMI students** to practice creating a Pull Request (PR).
 ## 🧑‍🎓 Student List
 
 - **Full Name** — Group <Group Name/Number>
+
 - **Co-mentor Joy Ukpabi** — Group 2 Co-mentor
- 
 
   **Goodness Ojonuba** - Group 4
 Yaa Kesewaa Yeboah - Group 5

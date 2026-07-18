@@ -1,15 +1,35 @@
-Mustapha Nurudeen Olalekan — Group 2
+This file is used by **DMI students** to practice creating a Pull Request (PR).
 
-   Saroj khanal  - Group 1
+## 📌 Instructions
+1. Fork this repository.
+2. Edit this `README.md` file.
+3. Add your **full name** and **group** to the list below.
+4. Commit your changes.
+5. Create a Pull Request to the **specified pull request page**.
+
+⚠️ **Rules**
+- Add your name at the **end of the list only**.
+- Do not modify or remove other entries.
+- Follow the same format.
+
+---
+
+## 🧑‍🎓 Student List
+
+- ** Joy Ukpabi** — Group <Group 1>
+
+- **Co-mentor Joy Ukpabi** — Group 2 Co-mentor
 
   **Goodness Ojonuba** - Group 4
 Yaa Kesewaa Yeboah - Group 5
 Dolapo Mohammed — Group 5
 - Minal Vaishnav — Group 5
+- **Saroj Khanal** — Group 1
 Ifunanya Peace Okeke
      Greg Odi - Group 5
 - **Full Name** - Group <Group Name/Number>
 - Oluwaseun Adegoke - Group 5
+Mustapha Nurudeen Olalekan — Group 2
 Rita Gitamo - Group 1
 - **Osenat Alonge** — Group 5/172
 <!-- Add your entry below this line -->
@@ -146,9 +166,6 @@ Ibemesi Tobechukwu David - Group 5
 **Adekunle Anthonia** - Group 1
 - **DAVID AGADA ADIKWU** — Group <GROUP 4>
 **Chioma Margaret Nwosu** - Group 5
-<<<<<<< HEAD
-=======
->>>>>>> e728f840f5e6b087eb70e4629537ab979bc6781b
 Orji Ekeoma Miracle - Group 3
 M Hasnain Hanif - Group 2
 - **Nonjabulo Kubheka** — Group 6<Group Name/Number>
@@ -174,7 +191,7 @@ Rama Kant Tiwari_Group1
 Uchenna Unigwe - Group4
 3. Add your **Duru Juliet Chinenye** and **group 1** to the list below.
 - **Duru Juliet Chinenye** — Group <Group 1/>
-=
+
 - **Benjamin Akinteye** — Group <Group 5>
 Fortune Chigozie Anagor - Group 6
 - **Isaiah Emeka Prestige** — Group 5

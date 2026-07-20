@@ -91,6 +91,7 @@ JENNIFER IFESINACHI UDEH GROUP 2
 **Nkechi Queeneth Ogbuji** - Group 2
 - **Echezona Ifejianyi** - Group 3
 **Sonny Enchill** - Group 6
+
 Solomon Nwachukwu Olungweonwi - Group 2
 Rajrupa Raghavan - Group 6
   ** Nwogu Nice Ihuoma** - Group 6
@@ -200,3 +201,5 @@ Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
+
+-**Jacquelina Shalinie Stanley** <Group 2> 

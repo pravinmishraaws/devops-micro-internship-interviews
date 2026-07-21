@@ -200,3 +200,6 @@ Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
+
+
+- **Jacquelina Shalinie Stanley** — Group 2 - DMI Cohort 3 

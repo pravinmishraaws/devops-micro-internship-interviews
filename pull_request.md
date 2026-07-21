@@ -146,9 +146,6 @@ Ibemesi Tobechukwu David - Group 5
 **Adekunle Anthonia** - Group 1
 - **DAVID AGADA ADIKWU** — Group <GROUP 4>
 **Chioma Margaret Nwosu** - Group 5
-<<<<<<< HEAD
-=======
->>>>>>> e728f840f5e6b087eb70e4629537ab979bc6781b
 Orji Ekeoma Miracle - Group 3
 M Hasnain Hanif - Group 2
 - **Nonjabulo Kubheka** — Group 6<Group Name/Number>
@@ -200,3 +197,4 @@ Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
+- **Oluwabunmi Olowoyeye - Group 1**

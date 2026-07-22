@@ -200,4 +200,4 @@ Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
-- **Gideon Omole** - Group - Group 3
+Gideon Omole — Group 3

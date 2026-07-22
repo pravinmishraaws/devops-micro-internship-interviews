@@ -146,9 +146,6 @@ Ibemesi Tobechukwu David - Group 5
 **Adekunle Anthonia** - Group 1
 - **DAVID AGADA ADIKWU** — Group <GROUP 4>
 **Chioma Margaret Nwosu** - Group 5
-<<<<<<< HEAD
-=======
->>>>>>> e728f840f5e6b087eb70e4629537ab979bc6781b
 Orji Ekeoma Miracle - Group 3
 M Hasnain Hanif - Group 2
 - **Nonjabulo Kubheka** — Group 6<Group Name/Number>
@@ -174,7 +171,6 @@ Rama Kant Tiwari_Group1
 Uchenna Unigwe - Group4
 3. Add your **Duru Juliet Chinenye** and **group 1** to the list below.
 - **Duru Juliet Chinenye** — Group <Group 1/>
-=
 - **Benjamin Akinteye** — Group <Group 5>
 Fortune Chigozie Anagor - Group 6
 - **Isaiah Emeka Prestige** — Group 5
@@ -200,3 +196,4 @@ Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
+Maneetta Antony - Group 3

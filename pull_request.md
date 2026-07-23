@@ -8,11 +8,11 @@ Dolapo Mohammed — Group 5
 - Minal Vaishnav — Group 5
 Ifunanya Peace Okeke
      Greg Odi - Group 5
-- **Full Name** - Group <Group Name/Number>
+- **Silas Nyarko** - Group <Group 3>
 - Oluwaseun Adegoke - Group 5
 Rita Gitamo - Group 1
 - **Osenat Alonge** — Group 5/172
-<!-- Add your entry below this line -->
+**Silas Nyarko** - Group <Group 3>
 **Joseph Ilashe Benjamin**  - Group 1
 - **Obianuju Florence Ohawuchi** — Group <Group 5 Name/Number>
 - **Aderinto Adedayo** — Group <Group 4>

@@ -8,7 +8,6 @@ Dolapo Mohammed — Group 5
 - Minal Vaishnav — Group 5
 Ifunanya Peace Okeke
      Greg Odi - Group 5
-- **Silas Nyarko** - Group <Group 3>
 - Oluwaseun Adegoke - Group 5
 Rita Gitamo - Group 1
 - **Osenat Alonge** — Group 5/172

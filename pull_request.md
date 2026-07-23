@@ -13,6 +13,7 @@ Ifunanya Peace Okeke
 Rita Gitamo - Group 1
 - **Osenat Alonge** — Group 5/172
 <!-- Add your entry below this line -->
+- **Ubani Onu Chukwu** — Group 2
 **Joseph Ilashe Benjamin**  - Group 1
 - **Obianuju Florence Ohawuchi** — Group <Group 5 Name/Number>
 - **Aderinto Adedayo** — Group <Group 4>

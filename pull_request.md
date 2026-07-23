@@ -186,6 +186,12 @@ CHIME MICHAEL TOCHUKWU - GROUP 3
 - **Grace Sunday** Group 5
 BOYINBODE FUNMILAYO - GROUP 6
 ## 🧑‍🎓 Student List Full Name — Group <Group Name/Number>
+
+Full Name — Group <Group Name/Number>
+
+- ** Tayssir Oueslati ** — Group <Group 2>
+
+Full Name — Group <Group Name/Number>
 Oluchukwu Edeh - Group 6
 - **Ezeh Lilian Ezichi** — Group <Group 1>
 Helen Lema Nega - Group 5

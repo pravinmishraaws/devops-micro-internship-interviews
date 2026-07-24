@@ -12,8 +12,8 @@ Ifunanya Peace Okeke
 - Oluwaseun Adegoke - Group 5
 Rita Gitamo - Group 1
 - **Osenat Alonge** — Group 5/172
-<!-- Add your entry below this line -->
-**Joseph Ilashe Benjamin**  - Group 1
+Add your entry below this line 
+**Peace Nwadinachi Offor**  - Group 3
 - **Obianuju Florence Ohawuchi** — Group <Group 5 Name/Number>
 - **Aderinto Adedayo** — Group <Group 4>
 MOHANA KRISHNA DHARANI KUMAR - Group 6

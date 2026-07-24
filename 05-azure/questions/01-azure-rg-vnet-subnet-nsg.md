@@ -28,4 +28,4 @@ The Petclinic Platform is deployed on AWS, not Azure. The AWS equivalents of Azu
 
 If you are interviewing for an AWS role after Azure experience — lead with the concept, then name the AWS tool. Interviewers value engineers who understand the pattern, not just the product name.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

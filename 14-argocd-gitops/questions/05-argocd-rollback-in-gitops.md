@@ -67,4 +67,4 @@ The Petclinic Platform's GitOps rollback process is documented in `docs/runbook.
 
 Prod does not have auto-sync — so step 4 requires a manual sync trigger in the ArgoCD UI. That is intentional: even the rollback is a deliberate human action, not an automatic one.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

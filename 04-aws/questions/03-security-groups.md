@@ -51,4 +51,4 @@ The Petclinic Platform uses security groups as the primary network-layer access 
 
 Each security group has a single responsibility. The RDS group does not know about the ALB — it only trusts the EKS nodes. That is the principle of least privilege at the network layer.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

@@ -29,4 +29,4 @@ The Petclinic Platform uses neither Azure VMs nor Azure App Service — it runs 
 
 The petclinic choice — EKS — prioritises control and portability. Standard Kubernetes manifests work on any cluster, not a platform-specific configuration.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

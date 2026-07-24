@@ -28,4 +28,4 @@ The DynamoDB lock prevents this. The lock is acquired before reading state, held
 
 Consistent state is what makes it safe for a team to share infrastructure. Without it, the second apply works on stale state and may destroy resources the first apply just created.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

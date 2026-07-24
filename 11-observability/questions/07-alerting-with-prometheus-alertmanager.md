@@ -102,4 +102,4 @@ The Petclinic Platform defines `PrometheusRule` resources in `k8s/base/` alongsi
 
 Alertmanager is deployed as part of the `kube-prometheus-stack` Helm release in `terraform/modules/observability/`. The Alertmanager config is stored as a Kubernetes Secret (managed by the Helm chart) and never committed to Git in plaintext — the Slack webhook URL and PagerDuty routing key are injected from AWS Secrets Manager via the External Secrets Operator.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

@@ -33,4 +33,4 @@ In a fully containerised EKS deployment, the operations Ansible modules typicall
 
 If you work in a hybrid environment (some VMs, some containers), Ansible and Kubernetes coexist naturally — Ansible for the VM layer, Kubernetes for the container layer.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

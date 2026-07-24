@@ -60,4 +60,4 @@ The Petclinic Platform uses IRSA for four components — each with its own scope
 
 Each role's trust policy allows only the specific Kubernetes service account in the specific namespace to assume it. No other pod in the cluster can assume these roles — even if it runs with elevated privileges.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

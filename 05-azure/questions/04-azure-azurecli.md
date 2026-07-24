@@ -30,4 +30,4 @@ The Petclinic Platform uses the AWS CLI as its day-to-day command-line tool. Key
 
 The pattern is identical: authenticate, configure context, then run resource-specific commands. Both CLIs are first-class citizens for scripting and CI automation.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

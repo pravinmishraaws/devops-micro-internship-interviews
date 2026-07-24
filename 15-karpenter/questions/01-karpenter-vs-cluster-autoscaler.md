@@ -87,4 +87,4 @@ When a Spring Boot pod cannot be scheduled because all t4g.small nodes are full,
 
 Cluster Autoscaler would have required a pre-configured ASG with a fixed instance type. Karpenter makes that decision dynamically, per workload.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

@@ -41,4 +41,4 @@ The Petclinic Platform performs a similar migration — eight Spring Boot micros
 
 The Docker Compose to Kubernetes migration is exactly this pattern, applied at production scale across eight services.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

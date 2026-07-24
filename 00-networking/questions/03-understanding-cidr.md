@@ -34,4 +34,4 @@ The Petclinic Platform VPC uses deliberate CIDR allocation to separate concerns 
 
 The all-public subnet design is a deliberate cost trade-off for a learning environment. In production with stricter compliance requirements, database subnets would be private with a NAT Gateway for outbound traffic.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

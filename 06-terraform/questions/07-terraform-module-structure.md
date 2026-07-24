@@ -77,4 +77,4 @@ The Petclinic Platform uses this exact structure. The `terraform/` directory has
 
 Each child module accepts the variables that differ per environment (cluster name, instance type, node count, CIDR range) and outputs the values the next module needs (VPC ID, subnet IDs, cluster endpoint). Modules are wired together through outputs — `module.vpc.subnet_ids` flows into `module.eks.subnet_ids`, and so on.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

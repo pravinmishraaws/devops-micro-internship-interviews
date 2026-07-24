@@ -80,4 +80,4 @@ The Petclinic Platform has two ArgoCD Application CRDs — one per environment �
 
 This pattern is what the specificity question in Lecture 17.2 points to: "ArgoCD detects that commit and auto-deploys to dev. Prod requires a manual sync — because prod always needs a human gate."
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

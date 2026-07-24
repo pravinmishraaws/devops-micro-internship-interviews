@@ -83,4 +83,4 @@ The `terraform/modules/observability/` module deploys the `kube-prometheus-stack
 
 `ServiceMonitor` CRDs in `k8s/base/` tell the Prometheus Operator which services to scrape, which path (`/actuator/prometheus`), and at what interval. Every service gets its own `ServiceMonitor` — scoped to its port and path so Prometheus only scrapes what each service exposes.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

@@ -25,4 +25,4 @@ The Petclinic Platform implements all three pillars with OpenTelemetry as the in
 
 All three are accessible from one Grafana instance — switch between metric dashboards and Loki log queries without leaving the tool.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

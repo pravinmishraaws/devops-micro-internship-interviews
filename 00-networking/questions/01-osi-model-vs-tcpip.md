@@ -37,4 +37,4 @@ The Petclinic Platform runs inside a custom AWS VPC, where every layer of the OS
 
 When debugging pod connectivity issues on EKS, the same top-down approach applies — start at DNS, verify the service endpoint resolves, then check the TCP handshake to the target pod.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

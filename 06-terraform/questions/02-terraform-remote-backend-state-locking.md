@@ -81,4 +81,4 @@ terraform {
 
 When `terraform apply` runs in dev, Terraform acquires a lock in DynamoDB before modifying state. If a second engineer runs apply at the same time, they see: `Error: Error acquiring the state lock`. The lock entry tells you who holds it and when they started.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

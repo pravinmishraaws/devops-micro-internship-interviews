@@ -153,4 +153,4 @@ The Petclinic Platform does not use cron or systemd timers directly — schedule
 
 Understanding cron syntax remains essential because Kubernetes CronJob schedules use the exact same format — `0 2 * * *` means 2 AM daily, identical to classic cron.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

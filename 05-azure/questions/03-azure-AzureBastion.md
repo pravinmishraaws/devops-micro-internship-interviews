@@ -28,4 +28,4 @@ The Petclinic Platform avoids bastion hosts entirely. On AWS, the equivalent app
 
 For EKS nodes specifically, direct node access is almost never needed — `kubectl exec` into the pod is faster and more targeted. Treat nodes as cattle.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

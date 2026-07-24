@@ -27,4 +27,4 @@ The Petclinic Platform uses IAM roles — never IAM users or access keys — for
 
 Every identity gets exactly the permissions it needs for exactly the resources it touches. No wildcard policies, no `*` on sensitive actions.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

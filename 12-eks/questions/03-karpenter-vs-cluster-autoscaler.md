@@ -77,4 +77,4 @@ The Petclinic Platform uses Karpenter for node scaling in both dev and prod. The
 
 The `NodePool` is configured to use `t4g.small`, `t4g.medium`, and `t4g.large` ARM/Graviton instances — all on spot — with on-demand as fallback. Consolidation is enabled so idle nodes are terminated within 30 seconds of becoming empty.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

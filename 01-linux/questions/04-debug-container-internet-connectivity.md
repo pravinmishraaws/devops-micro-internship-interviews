@@ -133,4 +133,4 @@ EKS pods on the Petclinic Platform need external connectivity — the Config Ser
 
 The all-public subnet design means pods can reach the internet without a NAT Gateway — but security group outbound rules still control what they can reach.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

@@ -36,4 +36,4 @@ The Petclinic Platform uses Amazon S3 as its equivalent to Azure Storage Account
 
 Conceptual mapping: Azure containers = S3 buckets, Azure blobs = S3 objects, Azure SAS tokens = S3 presigned URLs.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

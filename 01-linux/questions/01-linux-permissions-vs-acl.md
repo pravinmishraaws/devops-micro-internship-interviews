@@ -82,4 +82,4 @@ The Petclinic Platform runs eight containerised Spring Boot services on EKS. Lin
 
 File permissions are foundational — even in a containerised environment, they determine what a compromised process can reach.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

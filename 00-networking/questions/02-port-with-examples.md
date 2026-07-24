@@ -56,4 +56,4 @@ Every service in the Petclinic Platform exposes a specific port — and security
 
 Understanding which port each service uses — and why — is the difference between an engineer who deployed it and one who just read the docs.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

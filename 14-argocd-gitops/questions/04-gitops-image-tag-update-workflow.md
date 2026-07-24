@@ -74,4 +74,4 @@ The `helm-values/` directory is the handoff point between CI and CD. GitHub Acti
 
 When an interviewer asks "how does ArgoCD know what to deploy?" — the answer is: a commit in `helm-values/`. Not a webhook, not a direct API call. Git is the source of truth.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

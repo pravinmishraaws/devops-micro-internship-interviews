@@ -56,4 +56,4 @@ Five of the eight Petclinic services are scraped by Prometheus:
 
 The three excluded services — config-server, discovery-server, admin-server — do not expose a Micrometer metrics endpoint. Prometheus is configured not to scrape them. Saying "we intentionally excluded three services because they do not expose Micrometer metrics" in an interview signals real hands-on knowledge.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

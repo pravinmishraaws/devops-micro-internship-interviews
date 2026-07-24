@@ -37,4 +37,4 @@ The Petclinic Platform runs on AWS t4g.small ARM/Graviton EKS nodes (2 vCPU, 2 G
 
 Knowing how to read node resource usage (`kubectl top nodes`, `kubectl describe node`) is how you catch a memory-starved node before it starts evicting pods.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

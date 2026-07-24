@@ -41,4 +41,4 @@ On the Petclinic Platform's t4g.small EKS nodes (2 vCPU each), load average is a
 
 In practice: if a node consistently runs above 80% CPU, Karpenter provisions a new node and the scheduler redistributes pending pods automatically.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

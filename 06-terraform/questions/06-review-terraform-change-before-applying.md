@@ -48,4 +48,4 @@ Every infrastructure change in the Petclinic Platform follows this review discip
 
 The `-out` flag matters because Terraform re-calculates the plan at apply time if you do not save it. What you reviewed and what gets applied could differ if the state changed between the two commands.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

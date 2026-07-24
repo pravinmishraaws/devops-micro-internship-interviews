@@ -24,4 +24,4 @@ In the Petclinic Platform's GitOps workflow, fetch vs. pull has a practical impl
 
 The rule: use `git fetch` to look, `git pull --ff-only` to sync. Never `git pull` with a merge on a branch ArgoCD is watching — the extra merge commit can confuse the diff.
 
-*Built as part of the [Agentic DevOps with Claude Code](https://www.udemy.com/course/agentic-devops-with-claude-code/) course.*
+*Built as part of the [DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3) course.*

@@ -1,4 +1,4 @@
-Mustapha Nurudeen Olalekan — Group 2
+iMustapha Nurudeen Olalekan — Group 2
 
    Saroj khanal  - Group 1
 
@@ -139,6 +139,7 @@ Santosh Kumar Giri - Group 1
 James Tuttle - Group 3 👍
   **Bukola Baiyewu** — Group 6
 - **Godwin Chinedu** — Group 1
+
 chijindu Obioma - Group 3
 Shivam Soni - Group 5
        Mathias Olah Obinwa - Group 2
@@ -188,6 +189,7 @@ BOYINBODE FUNMILAYO - GROUP 6
 ## 🧑‍🎓 Student List Full Name — Group <Group Name/Number>
 Oluchukwu Edeh - Group 6
 - **Ezeh Lilian Ezichi** — Group <Group 1>
+- **Osamudiamen Agharese** Group 1
 Helen Lema Nega - Group 5
    Felix Emeka Nwobodo — Group 3
 Ingvar H. - Group 1

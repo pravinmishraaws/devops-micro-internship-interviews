@@ -200,3 +200,20 @@ Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
+## □^=□^q□^`^m□^=^n^s Student List Full Name □^`^t Group <Group Name/Number>
+Oluchukwu Edeh - Group 6
+- **Ezeh Lilian Ezichi** □^`^t Group <Group 1>
+Helen Lema Nega - Group 5
+   Felix Emeka Nwobodo □^`^t Group 3
+Ingvar H. - Group 1
+-Sannik Chakraborty - Group 4
+- **Taiwo Adebayo** □^`^t Group <Group Name/Number>
+- K Uday  □^`^t  Group 7
+- **victoria Ojochenemi Audu** □^`^t Group <Group Name/Number>
+- **Samuel Ehizokhai** □^`^t Group 2
+Anand Sreekumar- Udemy course
+Gurubalan - DevOps 1
+Prince O
+Yeshwanth Madineni □^`^t Group <Your Group>
+
+- **Ginny Ibe** - <Group 3>

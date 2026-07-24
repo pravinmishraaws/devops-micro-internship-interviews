@@ -185,6 +185,8 @@ Daniel Inyang - Group 4
 CHIME MICHAEL TOCHUKWU - GROUP 3
 - **Grace Sunday** Group 5
 BOYINBODE FUNMILAYO - GROUP 6
+
+
 ## 🧑‍🎓 Student List Full Name — Group <Group Name/Number>
 Oluchukwu Edeh - Group 6
 - **Ezeh Lilian Ezichi** — Group <Group 1>
@@ -200,3 +202,4 @@ Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
+- **Micheal Omotosho** — Group 1

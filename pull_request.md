@@ -86,7 +86,8 @@ PRATYUSH PAHARI - Group 4
 Ashu Soni - Group 4
 Teminijesu Rebecca Obe - Group 4
 JENNIFER IFESINACHI UDEH GROUP 2
-- **Blessing Chinyere Udeagu** — Group 6
+- 
+**Blessing Chinyere Udeagu** — Group 6
 **Ihuoma Nkechi Bridget** - Group 2
 **Nkechi Queeneth Ogbuji** - Group 2
 - **Echezona Ifejianyi** - Group 3
@@ -182,6 +183,7 @@ Fortune Chigozie Anagor - Group 6
 - **Nkechi Anna Ahanonye** — Group <Co-Mentor Group 5>
 Shakti Anand Singh- Group 5
 Daniel Inyang - Group 4
+
 CHIME MICHAEL TOCHUKWU - GROUP 3
 - **Grace Sunday** Group 5
 BOYINBODE FUNMILAYO - GROUP 6
@@ -200,3 +202,5 @@ Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
+**Angus Egbekobar** - Group 1
+

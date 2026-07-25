@@ -1,17 +1,25 @@
-Mustapha Nurudeen Olalekan — Group 2
+# DMI Student Acknowledgement
 
-   Saroj khanal  - Group 1
+This file is used by **DMI students** to practice creating a Pull Request (PR).
 
-  **Goodness Ojonuba** - Group 4
-Yaa Kesewaa Yeboah - Group 5
-Dolapo Mohammed — Group 5
-- Minal Vaishnav — Group 5
-Ifunanya Peace Okeke
-     Greg Odi - Group 5
-- **Full Name** - Group <Group Name/Number>
-- Oluwaseun Adegoke - Group 5
-Rita Gitamo - Group 1
-- **Osenat Alonge** — Group 5/172
+## 📌 Instructions
+1. Fork this repository.
+2. Edit this `README.md` file.
+3. Add your **full name** and **group** to the list below.
+4. Commit your changes.
+5. Create a Pull Request to the **specified pull request page**.
+
+⚠️ **Rules**
+- Add your name at the **end of the list only**.
+- Do not modify or remove other entries.
+- Follow the same format.
+
+---
+
+## 🧑‍🎓 Student List
+
+- **Full Name** — Group <Group Name/Number>
+
 <!-- Add your entry below this line -->
 **Joseph Ilashe Benjamin**  - Group 1
 - **Obianuju Florence Ohawuchi** — Group <Group 5 Name/Number>

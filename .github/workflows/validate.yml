@@ -12,19 +12,20 @@ jobs:
     steps:
       # 1) Base repo (trusted) – get your validator scripts & requirements
       - name: Checkout base repository (trusted)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: main
           path: base
 
       # 2) PR code (untrusted) – only as data to validate
       - name: Checkout PR head (untrusted)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           path: pr
+          allow-unsafe-pr-checkout: true
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 

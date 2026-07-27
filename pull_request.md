@@ -1,5 +1,6 @@
-Mustapha Nurudeen Olalekan — Group 2
 
+
+Mustapha Nurudeen Olalekan — Group 
    Saroj khanal  - Group 1
 
   **Goodness Ojonuba** - Group 4
@@ -200,3 +201,5 @@ Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
+
+**Saima Usman** — Group 2

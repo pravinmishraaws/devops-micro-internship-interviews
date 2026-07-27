@@ -1,5 +1,6 @@
-Mustapha Nurudeen Olalekan — Group 2
 
+
+Mustapha Nurudeen Olalekan — Group 
    Saroj khanal  - Group 1
 
   **Goodness Ojonuba** - Group 4
@@ -193,9 +194,9 @@ Ingvar H. - Group 1
 - K Uday  —  Group 7
 - **victoria Ojochenemi Audu** — Group <Group Name/Number>
 - **Samuel Ehizokhai** — Group 2
-- Anand Sreekumar- Udemy course
-- Gurubalan - DevOps 1
-- Prince O
-- Yeshwanth Madineni — Group <Your Group>
+Anand Sreekumar- Udemy course
+Gurubalan - DevOps 1
+Prince O
+Yeshwanth Madineni — Group <Your Group>
 
-- **Saima Usman** - Group-2 (DMI-Cohort03)
+**Saima Usman** — Group 2

@@ -1,0 +1,23 @@
+#!/bin/bash
+# hooks/pre-commit — blocks commits with likely secrets or oversized files
+set -e
+staged=$(git diff --cached --name-only --diff-filter=ACM)
+blocked=0
+for file in $staged; do
+if git diff --cached -- "$file" | grep -qE 'AKIA[0-9A-Z]{16}|-----BEGIN (RSA|OPENSSH|PRIVATE) KEY-----'; then
+echo "BLOCKED: possible secret in $file"
+blocked=1
+fi
+ 
+size=$(git cat-file -s "$(git rev-parse ":$file")" 2>/dev/null || echo 0)
+if [ "$size" -gt 1000000 ]; then
+echo "BLOCKED: $file is $(($size / 1000000))MB — over the 1MB limit"
+blocked=1
+fi
+ 
+done
+ 
+if [ "$blocked" -eq 1 ]; then
+echo "Commit rejected. Fix the issues above and try again."
+exit 1
+fi

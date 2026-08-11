@@ -173,7 +173,6 @@ Rama Kant Tiwari_Group1
 Uchenna Unigwe - Group4
 3. Add your **Duru Juliet Chinenye** and **group 1** to the list below.
 - **Duru Juliet Chinenye** — Group <Group 1/>
-=
 - **Benjamin Akinteye** — Group <Group 5>
 Fortune Chigozie Anagor - Group 6
 - **Isaiah Emeka Prestige** — Group 5
@@ -200,6 +199,4 @@ Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
 
-- **Yinusa Kolawole Gbenga** — Group <Group 6>
-
--  Yinusa Kolawole Gbenga — Group 6
+- **Yinusa Kolawole Gbenga** — Group 6

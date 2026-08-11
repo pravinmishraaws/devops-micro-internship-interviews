@@ -13,6 +13,7 @@ Ifunanya Peace Okeke
 Rita Gitamo - Group 1
 - **Osenat Alonge** — Group 5/172
 <!-- Add your entry below this line -->
+
 **Joseph Ilashe Benjamin**  - Group 1
 - **Obianuju Florence Ohawuchi** — Group <Group 5 Name/Number>
 - **Aderinto Adedayo** — Group <Group 4>
@@ -146,9 +147,7 @@ Ibemesi Tobechukwu David - Group 5
 **Adekunle Anthonia** - Group 1
 - **DAVID AGADA ADIKWU** — Group <GROUP 4>
 **Chioma Margaret Nwosu** - Group 5
-<<<<<<< HEAD
-=======
->>>>>>> e728f840f5e6b087eb70e4629537ab979bc6781b
+
 Orji Ekeoma Miracle - Group 3
 M Hasnain Hanif - Group 2
 - **Nonjabulo Kubheka** — Group 6<Group Name/Number>
@@ -200,3 +199,7 @@ Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
+=======
+
+- **Yinusa Kolawole Gbenga** — Group <Group 6>
+

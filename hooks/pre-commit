@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# חוק 1: חסימת קבצים הגדולים מ-1MB באזור ה-Staging
+MAX_SIZE=1048576 # 1MB בבייטים
+
+for file in $(git diff --cached --name-only); do
+    if [ -f "$file" ]; then
+        file_size=$(wc -c < "$file")
+        if [ "$file_size" -gt "$MAX_SIZE" ]; then
+            echo "❌ שגיאה: הקובץ '$file' גדול מ-1MB ($file_size בייטים)!"
+            echo "אנא הסר אותו או הקטן את גודלו לפני ביצוע קומיט."
+            exit 1
+        fi
+    fi
+done
+
+# חוק 2: חסימת מפתחות גישה (Secrets) של AWS
+if git diff --cached | grep -qE 'AKIA[A-Z0-9]{16}|ASIA[A-Z0-9]{16}'; then
+    echo "❌ שגיאה: זוהה מפתח גישה חסוי (AWS Access Key) בשינויים שהכנת לקומיט!"
+    echo "אבטחה ראשונה! חסמנו את הקומיט כדי למנוע דליפת סודות."
+    exit 1
+fi
+
+exit 0
+EOF

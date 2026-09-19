@@ -3,6 +3,7 @@ Mustapha Nurudeen Olalekan — Group 2
    Saroj khanal  - Group 1
 
   **Goodness Ojonuba** - Group 4
+Mohamed Galole - Group 2
 Yaa Kesewaa Yeboah - Group 5
 Dolapo Mohammed — Group 5
 - Minal Vaishnav — Group 5
@@ -54,7 +55,7 @@ Eyiaro Adedayo - Group 2
 - **Vision Khubai** — Group <Group Name/Number>
 29 jAN 2026 - I have added my solution for the DevOps DMI Internship
 Emmanuel Adekiitan - Group 3
-Ashaye Adetomiwa - Group 2
+AsAhaye Adetomiwa - Group 2
 Famakinwa Temitope Joseph - Group 6
 **ALEKE JUSTIN EKENE** - GROUP 6
 **Ibeh Victory Chimaobi** - Group 1
@@ -200,3 +201,4 @@ Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
+OA

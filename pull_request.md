@@ -172,6 +172,7 @@ Patience Gitonga - Group 4
 AJAH Callista Ijeoma  Group 4
 Rama Kant Tiwari_Group1
 Uchenna Unigwe - Group4
+
 3. Add your **Duru Juliet Chinenye** and **group 1** to the list below.
 - **Duru Juliet Chinenye** — Group <Group 1/>
 =
@@ -200,3 +201,4 @@ Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
+ **Onyemaechi Blessing Brenda**  — Group 3

@@ -200,3 +200,7 @@ Anand Sreekumar- Udemy course
 Gurubalan - DevOps 1
 Prince O
 Yeshwanth Madineni — Group <Your Group>
+
+3. Add your **Full name** and **group COHORT 3** to the list below.
+- **SHIVAM SHARMA -(DIATM)** — DIATM<Group 1/>
+=

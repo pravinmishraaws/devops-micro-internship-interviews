@@ -1,0 +1,28 @@
+#!/bin/sh
+
+echo "Running pre-commit safety checks..."
+
+failed=0
+
+for file in $(git diff --cached --name-only --diff-filter=ACMR); do
+    [ -f "$file" ] || continue
+
+    if grep -Eni 'AKIA[0-9A-Z]{12,}|API_KEY[[:space:]]*=' "$file"; then
+        echo "BLOCKED: Secret-like pattern found in $file"
+        failed=1
+    fi
+
+    size=$(wc -c < "$file")
+    if [ "$size" -gt 1048576 ]; then
+        echo "BLOCKED: File exceeds 1MB: $file"
+        failed=1
+    fi
+done
+
+if [ "$failed" -ne 0 ]; then
+    echo "Commit rejected. Fix the issues and try again."
+    exit 1
+fi
+
+echo "All safety checks passed."
+exit 0
